@@ -1,282 +1,226 @@
 # Contributing to ESP32 PlatformIO Project Template
 
-Thank you for your interest in contributing to this project! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing! This document provides guidelines and information for contributors.
 
-## 🚀 Quick Start for Contributors
+## 🚀 Quick Start
 
-1. **Fork the repository** on GitHub
-2. **Clone your fork** locally
-3. **Create a feature branch** from `main`
-4. **Make your changes** following our guidelines
-5. **Test thoroughly** on your target platform
-6. **Submit a pull request** with a clear description
+1. **Fork the repository**
+2. **Clone your fork**: `git clone https://coff33ninja/YOUR_USERNAME/ESP32-PlatformIO-Project-Template.git`
+3. **Set up development environment**: `.\build.ps1 setup`
+4. **Create a feature branch**: `git checkout -b feature/your-feature-name`
+5. **Make your changes and test thoroughly**
+6. **Submit a pull request**
 
 ## 📋 Development Setup
 
 ### Prerequisites
-- Python 3.13 or higher (recommended for compatibility with CI/CD)
-- Git
-- ESP32 development board (for hardware testing)
-- Windows, Linux, or macOS
+- **PlatformIO**: Install via VS Code extension or CLI
+- **Python 3.8+**: For development scripts
+- **Git**: For version control
+- **ESP32 Development Board**: For testing (optional)
 
 ### Environment Setup
 ```bash
-# Clone your fork
-git clone https://github.com/YOUR_USERNAME/ESP32-PlatformIO-Project-Template.git
-cd ESP32-PlatformIO-Project-Template
+# Install dependencies
+pip install -r requirements.txt
 
-# Create virtual environment (recommended)
-python -m venv .venv
-
-# Activate virtual environment
-# Windows:
-.venv\Scripts\activate
-# Linux/macOS:
-source .venv/bin/activate
-
-# Run setup
-.\build.ps1 setup  # Windows
-python scripts/setup.py  # Cross-platform
+# Run setup script
+python scripts/setup.py
 
 # Verify installation
 .\build.ps1 status
 ```
 
-## 🎯 Contribution Guidelines
+## 🛠️ Development Workflow
 
 ### Code Style
+- **C/C++**: Follow Arduino/ESP32 conventions
+- **Python**: Use Black formatter (`black scripts/`)
+- **Documentation**: Clear, concise comments and README updates
 
-#### Python Code
-- Follow PEP 8 style guidelines
-- Use `black` for code formatting: `black scripts/`
-- Use `flake8` for linting: `flake8 scripts/ --max-line-length=100`
-- Add type hints where appropriate
-- Include docstrings for functions and classes
+### Testing
+```bash
+# Build all environments
+.\build.ps1 build-all
 
-#### PowerShell Code
-- Use consistent indentation (4 spaces)
-- Follow PowerShell best practices
-- Include help comments for functions
-- Use descriptive variable names
+# Run code analysis
+pio check
 
-#### C++ Code (ESP32)
-- Follow Arduino/ESP32 coding conventions
-- Use consistent indentation (2 or 4 spaces)
-- Include header comments
-- Use meaningful variable and function names
-
-### Commit Messages
-Follow [Conventional Commits](https://www.conventionalcommits.org/) format:
-
-```
-type(scope): description
-
-[optional body]
-
-[optional footer]
+# Test with hardware (if available)
+.\build.ps1 deploy
 ```
 
-**Types:**
-- `feat`: New feature
-- `fix`: Bug fix
-- `docs`: Documentation changes
-- `style`: Code formatting (no functional changes)
-- `refactor`: Code refactoring
-- `test`: Adding or updating tests
-- `chore`: Maintenance tasks
-- `ci`: CI/CD changes
-- `perf`: Performance improvements
-- `build`: Build system changes
+### Commit Guidelines
+We use [Conventional Commits](https://www.conventionalcommits.org/):
+
+- `feat:` New features
+- `fix:` Bug fixes
+- `docs:` Documentation changes
+- `style:` Code style changes
+- `refactor:` Code refactoring
+- `test:` Test additions/changes
+- `chore:` Maintenance tasks
 
 **Examples:**
 ```
-feat(wifi): add WPA3 support to configuration generator
-fix(monitor): resolve serial port connection timeout
-docs(readme): update installation instructions
+feat: add WiFi configuration generator
+fix: resolve serial monitor connection issues
+docs: update installation instructions
 ```
 
-### Branch Naming
-- `feature/description` - New features
-- `fix/description` - Bug fixes
-- `docs/description` - Documentation updates
-- `refactor/description` - Code refactoring
+## 🎯 Contribution Areas
 
-## 🧪 Testing Requirements
+### High Priority
+- **Hardware compatibility**: Support for different ESP32 variants
+- **Library examples**: More custom library demonstrations
+- **Documentation**: Tutorials, guides, troubleshooting
+- **Testing**: Automated testing improvements
+
+### Medium Priority
+- **Build system**: Cross-platform improvements
+- **Monitoring tools**: Enhanced debugging capabilities
+- **CI/CD**: Workflow optimizations
+- **Security**: Best practices and scanning
+
+### Low Priority
+- **UI improvements**: Better web interfaces
+- **Performance**: Optimization opportunities
+- **Integration**: Third-party service connections
+
+## 📝 Pull Request Process
 
 ### Before Submitting
-1. **Run all builds**: `.\build.ps1 build` for all environments
-2. **Test scripts**: Verify all Python scripts work correctly
-3. **Check formatting**: Run `black` and `flake8` on Python code
-4. **Validate documentation**: Ensure README and docs are updated
-5. **Cross-platform testing**: Test on Windows/Linux if possible
+1. **Test thoroughly**: Ensure all environments build successfully
+2. **Update documentation**: README, comments, examples
+3. **Run quality checks**: Linting, formatting, security scans
+4. **Write clear commit messages**: Follow conventional commit format
 
-### Test Categories
+### PR Requirements
+- [ ] **Descriptive title**: Clear, concise description of changes
+- [ ] **Detailed description**: What, why, and how of your changes
+- [ ] **Testing evidence**: Screenshots, logs, or test results
+- [ ] **Documentation updates**: If applicable
+- [ ] **Breaking changes**: Clearly marked and explained
 
-#### Unit Tests
-- Test individual script functions
-- Mock hardware dependencies where needed
-- Verify error handling
-
-#### Integration Tests
-- Test complete workflows
-- Verify script interactions
-- Test with real ESP32 hardware when possible
-
-#### Platform Tests
-- Windows PowerShell compatibility
-- Linux/macOS bash compatibility
-- Cross-platform Python script functionality
-
-## 📁 Project Structure
-
-```
-├── .github/                 # GitHub workflows and templates
-│   ├── workflows/          # CI/CD workflows
-│   ├── ISSUE_TEMPLATE/     # Issue templates
-│   └── PULL_REQUEST_TEMPLATE.md
-├── scripts/                # Python automation scripts
-├── src/                    # ESP32 source code
-├── docs/                   # Documentation
-├── build.ps1              # Main build script
-├── platformio.ini         # PlatformIO configuration
-└── README.md              # Main documentation
-```
-
-## 🔧 Adding New Features
-
-### New Scripts
-1. Create script in `scripts/` directory
-2. Follow existing naming conventions
-3. Add comprehensive error handling
-4. Include help/usage information
-5. Update `build.ps1` with new commands
-6. Document in README.md
-
-### New Build Commands
-1. Add command to `build.ps1`
-2. Update help text
-3. Test on Windows PowerShell
-4. Document usage and examples
-
-### New Documentation
-1. Use clear, concise language
-2. Include code examples
-3. Add troubleshooting sections
-4. Update table of contents if needed
+### Review Process
+1. **Automated checks**: CI/CD pipeline must pass
+2. **Code review**: Maintainer review and feedback
+3. **Testing**: Manual testing if needed
+4. **Approval**: Final approval and merge
 
 ## 🐛 Bug Reports
 
-When reporting bugs, please include:
-- Clear description of the issue
-- Steps to reproduce
-- Expected vs actual behavior
-- Environment details (OS, Python version, etc.)
-- Error messages and logs
-- ESP32 board type if relevant
+### Before Reporting
+- **Search existing issues**: Check if already reported
+- **Test with latest version**: Ensure bug exists in current version
+- **Minimal reproduction**: Create smallest possible example
 
-Use the bug report template in GitHub Issues.
+### Bug Report Template
+```markdown
+**Describe the bug**
+Clear description of the issue
+
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. See error
+
+**Expected behavior**
+What you expected to happen
+
+**Environment:**
+- OS: [e.g. Windows 10]
+- PlatformIO Version: [e.g. 6.1.0]
+- ESP32 Board: [e.g. ESP32-DevKitC]
+- Project Version: [e.g. 1.0.0]
+
+**Additional context**
+Any other context about the problem
+```
 
 ## 💡 Feature Requests
 
-For new features, please:
-- Describe the use case and problem it solves
-- Provide implementation suggestions if possible
-- Consider backward compatibility
-- Discuss potential breaking changes
+### Before Requesting
+- **Check existing requests**: Avoid duplicates
+- **Consider scope**: Ensure it fits project goals
+- **Think about implementation**: Consider complexity and maintenance
 
-Use the feature request template in GitHub Issues.
+### Feature Request Template
+```markdown
+**Is your feature request related to a problem?**
+Clear description of the problem
 
-## 📖 Documentation
+**Describe the solution you'd like**
+Clear description of desired feature
 
-### Writing Guidelines
-- Use clear, simple language
-- Include practical examples
-- Add troubleshooting information
-- Keep formatting consistent
-- Update table of contents
+**Describe alternatives you've considered**
+Alternative solutions or features
 
-### Documentation Types
-- **README.md**: Main project documentation
-- **Code comments**: Inline documentation
-- **Script help**: Built-in help text
-- **Guides**: Step-by-step tutorials in `docs/`
+**Additional context**
+Any other context, screenshots, or examples
+```
 
-## 🔄 Pull Request Process
+## 🔧 Development Guidelines
 
-### Before Submitting
-1. **Rebase** your branch on latest `main`
-2. **Squash** related commits if appropriate
-3. **Test** thoroughly on your platform
-4. **Update** documentation
-5. **Fill out** PR template completely
+### Code Quality
+- **Readability**: Clear, self-documenting code
+- **Modularity**: Well-organized, reusable components
+- **Error handling**: Proper error checking and recovery
+- **Performance**: Efficient resource usage
 
-### Review Process
-1. **Automated checks** must pass (CI/CD)
-2. **Code review** by maintainers
-3. **Testing** on multiple platforms if needed
-4. **Documentation review**
-5. **Final approval** and merge
+### Documentation
+- **Code comments**: Explain complex logic
+- **README updates**: Keep documentation current
+- **Examples**: Provide working examples
+- **API documentation**: Document public interfaces
 
-### PR Requirements
-- Clear description of changes
-- Link to related issues
-- Test results and screenshots
-- Updated documentation
-- Backward compatibility consideration
-
-## 🏷️ Release Process
-
-### Versioning
-We use [Semantic Versioning](https://semver.org/):
-- `MAJOR.MINOR.PATCH`
-- Major: Breaking changes
-- Minor: New features (backward compatible)
-- Patch: Bug fixes
-
-### Release Workflow
-1. Create release branch from `main`
-2. Update version numbers
-3. Update CHANGELOG.md
-4. Create GitHub release
-5. Automated workflows build and publish artifacts
+### Security
+- **Input validation**: Sanitize all inputs
+- **Credential handling**: Never commit secrets
+- **Dependencies**: Keep libraries updated
+- **Vulnerability scanning**: Regular security checks
 
 ## 🤝 Community Guidelines
 
-### Code of Conduct
-- Be respectful and inclusive
-- Focus on constructive feedback
-- Help newcomers learn
-- Maintain professional communication
+### Be Respectful
+- **Inclusive language**: Welcoming to all contributors
+- **Constructive feedback**: Focus on code, not person
+- **Patient help**: Support newcomers
+- **Professional tone**: Maintain respectful communication
 
-### Getting Help
-- **GitHub Issues**: Bug reports and feature requests
-- **GitHub Discussions**: Questions and general discussion
-- **Pull Request Comments**: Code-specific discussions
+### Collaboration
+- **Open communication**: Discuss major changes first
+- **Knowledge sharing**: Help others learn
+- **Credit attribution**: Acknowledge contributions
+- **Conflict resolution**: Address disagreements constructively
 
-### Recognition
-Contributors are recognized in:
-- GitHub contributor graphs
-- Release notes for significant contributions
-- README acknowledgments for major features
+## 📞 Getting Help
 
-## 📚 Resources
+### Resources
+- **Documentation**: Check README and wiki first
+- **Issues**: Search existing issues and discussions
+- **Examples**: Review example code and libraries
+- **Community**: Engage with other contributors
 
-### ESP32 Development
-- [ESP32 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/)
-- [PlatformIO Documentation](https://docs.platformio.org/)
-- [Arduino ESP32 Core](https://github.com/espressif/arduino-esp32)
+### Contact
+- **GitHub Issues**: For bugs and feature requests
+- **GitHub Discussions**: For questions and ideas
+- **Pull Requests**: For code contributions
+- **Email**: For private/security concerns
 
-### Tools and Standards
-- [Conventional Commits](https://www.conventionalcommits.org/)
-- [Semantic Versioning](https://semver.org/)
-- [Python PEP 8](https://pep8.org/)
-- [GitHub Flow](https://guides.github.com/introduction/flow/)
+## 🏆 Recognition
 
-## 📞 Contact
+Contributors are recognized through:
+- **GitHub contributors list**: Automatic recognition
+- **Release notes**: Major contributions highlighted
+- **Documentation**: Contributor acknowledgments
+- **Community**: Public appreciation for valuable contributions
 
-For questions about contributing:
-- Open a GitHub Issue for technical questions
-- Use GitHub Discussions for general questions
-- Check existing issues and documentation first
+## 📄 License
 
-Thank you for contributing to make this project better! 🎉
+By contributing, you agree that your contributions will be licensed under the same license as the project (MIT License).
+
+---
+
+Thank you for contributing to the ESP32 PlatformIO Project Template! Your efforts help make embedded development more accessible and enjoyable for everyone.

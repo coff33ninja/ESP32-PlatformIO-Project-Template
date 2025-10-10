@@ -1,105 +1,59 @@
 # Pull Request
 
 ## Description
-<!-- Provide a brief description of the changes in this PR -->
+Brief description of the changes in this PR.
 
 ## Type of Change
-<!-- Mark the relevant option with an "x" -->
-- [ ] 🐛 Bug fix (non-breaking change which fixes an issue)
-- [ ] 🚀 New feature (non-breaking change which adds functionality)
-- [ ] 💥 Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] 📚 Documentation update
-- [ ] 🔧 Refactoring (no functional changes)
-- [ ] ⚡ Performance improvement
-- [ ] 🧪 Test addition or improvement
-- [ ] 🔨 Build system or CI/CD changes
-
-## Related Issues
-<!-- Link to any related issues -->
-Fixes #(issue number)
-Closes #(issue number)
-Related to #(issue number)
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] Documentation update
+- [ ] Code refactoring
+- [ ] Performance improvement
+- [ ] Test addition/improvement
 
 ## Changes Made
-<!-- Describe the specific changes made in this PR -->
-- 
-- 
-- 
+- List the specific changes made
+- Include any new files added
+- Mention any files deleted or moved
 
 ## Testing
-<!-- Describe how you tested your changes -->
-### Test Environment
-- [ ] Windows 10/11
-- [ ] Linux (Ubuntu/Debian)
-- [ ] macOS
-- [ ] ESP32 DevKit
-- [ ] Other ESP32 board: ___________
-
-### Test Cases
-<!-- Mark completed tests with "x" -->
-- [ ] Build system works (`.\build.ps1 build`)
-- [ ] All environments compile successfully
-- [ ] New features work as expected
-- [ ] Existing functionality not broken
-- [ ] Documentation updated and accurate
-- [ ] Scripts run without errors
-
-### Manual Testing Steps
-<!-- Provide step-by-step testing instructions -->
-1. 
-2. 
-3. 
-
-## Screenshots/Output
-<!-- If applicable, add screenshots or command output -->
-
-## Checklist
-<!-- Mark completed items with "x" -->
-### Code Quality
-- [ ] Code follows the project's style guidelines
-- [ ] Self-review of code completed
-- [ ] Code is properly commented
-- [ ] No unnecessary debug code or comments left
-
-### Documentation
-- [ ] README.md updated if needed
-- [ ] Inline code documentation added/updated
-- [ ] New features documented in appropriate files
-- [ ] Breaking changes documented
-
-### Testing
-- [ ] New tests added for new functionality
+- [ ] Code compiles successfully for all environments
+- [ ] Tested on hardware (if applicable)
 - [ ] All existing tests pass
-- [ ] Manual testing completed
-- [ ] Edge cases considered and tested
+- [ ] New tests added (if applicable)
 
-### Compatibility
-- [ ] Changes are backward compatible
-- [ ] Cross-platform compatibility maintained
-- [ ] No new dependencies added without justification
-- [ ] Performance impact considered
+**Test Environment:**
+- OS: [e.g. Windows 10]
+- PlatformIO Version: [e.g. 6.1.0]
+- ESP32 Board: [e.g. ESP32-DevKitC]
+
+## Documentation
+- [ ] README.md updated (if needed)
+- [ ] Code comments added/updated
+- [ ] Examples updated (if applicable)
+- [ ] API documentation updated (if applicable)
 
 ## Breaking Changes
-<!-- If this PR introduces breaking changes, describe them here -->
-- 
-- 
+If this PR introduces breaking changes, describe them here and provide migration instructions.
 
-## Migration Guide
-<!-- If breaking changes exist, provide migration instructions -->
-1. 
-2. 
-3. 
+## Screenshots/Logs
+If applicable, add screenshots or log output to demonstrate the changes.
+
+## Checklist
+- [ ] My code follows the project's style guidelines
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] My changes generate no new warnings
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally with my changes
+- [ ] Any dependent changes have been merged and published
+
+## Related Issues
+Closes #(issue number)
+Fixes #(issue number)
+Relates to #(issue number)
 
 ## Additional Notes
-<!-- Any additional information, concerns, or context -->
-
-## Reviewer Notes
-<!-- Specific areas you'd like reviewers to focus on -->
-- 
-- 
-
----
-<!-- 
-Thank you for contributing to the ESP32 PlatformIO Project Template!
-Please ensure all checklist items are completed before requesting review.
--->
+Any additional information that reviewers should know about this PR.
