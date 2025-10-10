@@ -20,7 +20,7 @@
 // ============================================================================
 
 // LED Configuration
-#define LED_PIN 2                    // Built-in LED pin (GPIO2 on most ESP32 boards)
+#define LED_PIN 48                    // Board: ESP32-S3-DevKitC-1 (GPIO48)                    // Built-in LED pin (GPIO2 on most ESP32 boards)
 #define LED_ACTIVE_HIGH true         // true if LED is active high, false if active low
 
 // Serial Configuration

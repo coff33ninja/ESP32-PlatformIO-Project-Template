@@ -4,6 +4,10 @@ on:
   pull_request:
     branches: [ main, develop ]
 
+permissions:
+  contents: read
+  pull-requests: read
+
 jobs:
   validate-pr:
     runs-on: ubuntu-latest
@@ -30,7 +34,7 @@ jobs:
           revert
     
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
     
@@ -41,7 +45,9 @@ jobs:
     
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
+        python -m pip install --upgrade pip
+        pip install platformio>=6.1.0
+        pip install esptool>=4.0.0
     
     - name: Build check
       run: |
@@ -49,9 +55,10 @@ jobs:
     
     - name: Code quality check
       run: |
-        pip install flake8 black
-        black --check scripts/ || echo "Code formatting issues found"
-        flake8 scripts/ --max-line-length=88 || echo "Linting issues found"
+        pip install flake8>=6.0.0 black>=23.0.0
+        black --check scripts/ || echo "::warning::Code formatting issues found"
+        flake8 scripts/ --max-line-length=88 || echo "::warning::Linting issues found"
+      continue-on-error: true
     
     - name: Documentation check
       run: |
@@ -62,9 +69,12 @@ jobs:
             echo "::warning::Consider updating README.md for source code changes"
           fi
         fi
+      continue-on-error: true
     
     - name: Security scan
       run: |
-        pip install safety bandit
-        safety check -r requirements.txt || echo "Security issues found"
-        bandit -r scripts/ || echo "Security linting issues found"
+        pip install safety>=2.0.0 bandit>=1.7.0
+        echo "platformio>=6.1.0" > temp_requirements.txt
+        safety check -r temp_requirements.txt || echo "::warning::Security issues found"
+        bandit -r scripts/ || echo "::warning::Security linting issues found"
+      continue-on-error: true

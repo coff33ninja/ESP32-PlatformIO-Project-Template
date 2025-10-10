@@ -22,6 +22,7 @@ function Show-Help {
     Write-Host "  size       - Analyze build size and memory usage"
     Write-Host ""
     Write-Host "Tools:" -ForegroundColor Yellow
+    Write-Host "  board      - Configure board/chipset (interactive)"
     Write-Host "  wifi       - Generate WiFi configuration"
     Write-Host "  monitor-enhanced - Enhanced serial monitor with logging"
     Write-Host "  backup     - Create flash memory backup"
@@ -99,6 +100,10 @@ switch ($Command.ToLower()) {
     "check" { Invoke-PioCommand @("check") }
     "update" { Invoke-PioCommand @("lib", "update") }
     "info" { Invoke-PioCommand @("project", "config") }
+    "board" {
+        Write-Host "🔧 Board Configuration Tool..." -ForegroundColor Green
+        Invoke-PythonScript "scripts/board_config.py" @("--interactive")
+    }
     "wifi" { 
         Write-Host "🌐 Generating WiFi configuration..." -ForegroundColor Green
         Invoke-PythonScript "scripts/wifi_config.py" @()

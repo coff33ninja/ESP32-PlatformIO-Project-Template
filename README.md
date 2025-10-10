@@ -5,11 +5,12 @@ A complete PlatformIO development environment setup for ESP32 projects with prof
 ## 🚀 Quick Start
 
 1. **Setup Environment**: `.\build.ps1 setup`
-2. **Check Status**: `.\build.ps1 status`
-3. **Place your code**: `src/main.cpp` or `src/main.ino`
-4. **Build**: `.\build.ps1 build`
-5. **Upload**: `.\build.ps1 upload`
-6. **Monitor**: `.\build.ps1 monitor`
+2. **Configure Board**: `.\build.ps1 board` (select your ESP32 variant)
+3. **Check Status**: `.\build.ps1 status`
+4. **Place your code**: `src/main.cpp` or `src/main.ino`
+5. **Build**: `.\build.ps1 build`
+6. **Upload**: `.\build.ps1 upload`
+7. **Monitor**: `.\build.ps1 monitor`
 
 ## 📁 Project Structure
 
@@ -34,6 +35,7 @@ A complete PlatformIO development environment setup for ESP32 projects with prof
 
 ### Core Development
 ```powershell
+.\build.ps1 board      # Configure board/chipset (ESP32, S2, S3, C3, C6)
 .\build.ps1 build      # Build project
 .\build.ps1 upload     # Upload to ESP32
 .\build.ps1 monitor    # Serial monitor
@@ -113,13 +115,30 @@ This project now includes full ESPHome support for Home Assistant integration an
 - **PlatformIO**: Low-level C++, full control, custom applications
 - **Both Supported**: Choose the right tool for your project needs
 
-## 🔧 Build Environments
+## 🔧 Multi-Board Support
 
-- **esp32dev** (default): Production build, optimized
-- **esp32dev_debug**: Debug build with verbose logging  
-- **esp32dev_ota**: Over-the-air update capable
+### Supported ESP32 Variants
+- **ESP32** (Original): Dual-core, WiFi, Bluetooth Classic + BLE
+- **ESP32-S2**: Single-core, WiFi, USB-OTG, Security features
+- **ESP32-S3**: Dual-core, WiFi, BLE 5.0, AI acceleration, PSRAM
+- **ESP32-C3**: Single-core RISC-V, WiFi, BLE 5.0, compact size
+- **ESP32-C6**: Single-core RISC-V, WiFi 6, BLE 5.0, Zigbee/Thread
 
-Build specific environment: `pio run -e esp32dev_debug`
+### Board Configuration
+```powershell
+.\build.ps1 board              # Interactive board selection
+python scripts/board_config.py --list    # List all supported boards
+python scripts/board_config.py --board esp32-s3-devkitc-1  # Configure specific board
+```
+
+### Build Environments
+- **[board]** (default): Production build, optimized
+- **[board]_debug**: Debug build with verbose logging  
+- **[board]_ota**: Over-the-air update capable
+
+Build specific environment: `pio run -e esp32-s3-devkitc-1_debug`
+
+See [Board Configuration Guide](docs/BOARD_CONFIGURATION.md) for detailed information.
 
 ## 📋 Hardware Setup
 
@@ -173,6 +192,7 @@ Build specific environment: `pio run -e esp32dev_debug`
 - 📦 **Automated Releases**: Binary artifacts with flash instructions
 - 🔄 **Dependency Updates**: Weekly automated dependency management
 - 🛡️ **Security Scanning**: Automated vulnerability detection
+- 🌐 **Cross-Platform Testing**: Windows, Linux, and macOS compatibility
 
 ## 📚 Need Help?
 

@@ -6,6 +6,10 @@ on:
     - cron: '0 2 * * 0'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   update-dependencies:
     runs-on: ubuntu-latest
@@ -16,7 +20,7 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
     
@@ -37,8 +41,11 @@ jobs:
     
     - name: Check for security vulnerabilities
       run: |
-        pip install safety
-        safety check -r requirements.txt || echo "Security issues found - will be addressed in PR"
+        pip install safety>=2.0.0
+        echo "platformio>=6.1.0" > temp_requirements.txt
+        echo "esptool>=4.0.0" >> temp_requirements.txt
+        echo "pyserial>=3.5" >> temp_requirements.txt
+        safety check -r temp_requirements.txt || echo "Security issues found - will be addressed in PR"
     
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v5

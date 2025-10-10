@@ -23,6 +23,8 @@ help:
 	@echo "Setup:"
 	@echo "  setup      - Run development environment setup"
 	@echo "  install    - Install dependencies"
+	@echo "  board      - Configure board/chipset (interactive)"
+	@echo "  board-list - List available boards"
 
 # Basic commands
 build:
@@ -60,6 +62,13 @@ setup:
 
 install:
 	pip install -r requirements.txt
+
+# Board configuration
+board:
+	python scripts/board_config.py --interactive
+
+board-list:
+	python scripts/board_config.py --list
 
 # Quick development cycle
 dev: build upload

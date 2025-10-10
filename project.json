@@ -1,6 +1,6 @@
 {
   "name": "ESP32 PlatformIO Template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Complete PlatformIO development environment for ESP32 projects",
   "author": "Developer",
   "license": "MIT",
@@ -9,37 +9,68 @@
     "url": ""
   },
   "hardware": {
-    "platform": "ESP32",
-    "board": "esp32dev",
+    "platform": "espressif32",
+    "board": "esp32-s3-devkitc-1",
     "interfaces": {
       "gpio": true,
       "serial": true,
       "wifi": true,
       "bluetooth": true
-    }
+    },
+    "board_name": "ESP32-S3-DevKitC-1",
+    "flash_size": "8MB",
+    "psram": true,
+    "led_pin": 48
   },
   "features": {
     "build_system": {
-      "environments": ["production", "debug", "ota"],
+      "environments": [
+        "production",
+        "debug",
+        "ota"
+      ],
       "automation": true,
-      "cross_platform": true
+      "cross_platform": true,
+      "multi_board_support": true
     },
     "development": {
       "vscode_integration": true,
       "debugging": true,
-      "serial_monitor": true
+      "serial_monitor": true,
+      "board_configuration": true
     },
     "deployment": {
       "usb_upload": true,
       "ota_updates": true,
       "ci_cd": true
+    },
+    "supported_boards": {
+      "esp32": [
+        "esp32dev",
+        "esp32-wrover-kit",
+        "m5stack-core-esp32",
+        "ttgo-t-display"
+      ],
+      "esp32_s2": [
+        "esp32-s2-saola-1"
+      ],
+      "esp32_s3": [
+        "esp32-s3-devkitc-1",
+        "esp32-s3-box"
+      ],
+      "esp32_c3": [
+        "esp32-c3-devkitm-1"
+      ],
+      "esp32_c6": [
+        "esp32-c6-devkitc-1"
+      ]
     }
   },
   "development": {
     "environments": {
-      "production": "esp32dev",
-      "debug": "esp32dev_debug",
-      "ota": "esp32dev_ota"
+      "production": "esp32-s3-devkitc-1",
+      "debug": "esp32-s3-devkitc-1_debug",
+      "ota": "esp32-s3-devkitc-1_ota"
     },
     "tools": {
       "build_system": "PlatformIO",
@@ -49,9 +80,16 @@
     }
   },
   "dependencies": {
-    "libraries": ["Example libraries configured (easily customizable)"],
-    "frameworks": ["Arduino"],
-    "tools": ["PlatformIO", "ESP32 Toolchain"]
+    "libraries": [
+      "Example libraries configured (easily customizable)"
+    ],
+    "frameworks": [
+      "Arduino"
+    ],
+    "tools": [
+      "PlatformIO",
+      "ESP32 Toolchain"
+    ]
   },
   "scripts": {
     "build": "pio run",

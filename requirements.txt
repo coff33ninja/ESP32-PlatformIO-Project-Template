@@ -10,7 +10,6 @@ click>=8.0.0
 # Network and data handling
 requests>=2.25.0
 pyyaml>=6.0
-yaml
 
 # Code quality and testing (for CI/CD)
 flake8>=6.0.0

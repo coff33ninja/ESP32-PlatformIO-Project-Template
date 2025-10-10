@@ -1,0 +1,20 @@
+# Minimal requirements for CI/CD
+# This file excludes problematic packages like esphome that cause CI failures
+
+# Core PlatformIO
+platformio>=6.1.0
+esptool>=4.0.0
+
+# Development tools
+pyserial>=3.5
+click>=8.0.0
+
+# Network and data handling
+requests>=2.25.0
+pyyaml>=6.0
+
+# Code quality and testing (for CI/CD)
+flake8>=6.0.0
+black>=23.0.0
+safety>=2.0.0
+bandit>=1.7.0
