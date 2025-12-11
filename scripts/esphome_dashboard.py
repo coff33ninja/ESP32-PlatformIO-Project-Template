@@ -278,7 +278,7 @@ def main():
         return 1
 
     # Launch ESPHome dashboard
-    print(f"🚀 Launching ESPHome dashboard...")
+    print(f"Launching ESPHome dashboard...")
     print(f"📁 Config directory: {config_dir}")
     print(f"🌐 Dashboard will be available at: http://localhost:6052")
     print("Press Ctrl+C to stop the dashboard")
