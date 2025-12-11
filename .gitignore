@@ -68,3 +68,7 @@ firmware.bin
 firmware.elf
 bootloader.bin
 partitions.bin
+
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md

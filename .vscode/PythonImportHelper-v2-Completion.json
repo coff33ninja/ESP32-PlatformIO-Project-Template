@@ -1,0 +1,2794 @@
+[
+    {
+        "label": "print_function",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "base64,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64.",
+        "description": "base64.",
+        "detail": "base64.",
+        "documentation": {}
+    },
+    {
+        "label": "FunctionType",
+        "importPath": "types",
+        "description": "types",
+        "isExtraImport": true,
+        "detail": "types",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "NamedTemporaryFile",
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "isExtraImport": true,
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "format_exc",
+        "importPath": "traceback",
+        "description": "traceback",
+        "isExtraImport": true,
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "print_exc",
+        "importPath": "traceback",
+        "description": "traceback",
+        "isExtraImport": true,
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "normalize",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "os,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.",
+        "description": "os.",
+        "detail": "os.",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "itertools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itertools",
+        "description": "itertools",
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "importPath": "elftools",
+        "description": "elftools",
+        "isExtraImport": true,
+        "detail": "elftools",
+        "documentation": {}
+    },
+    {
+        "label": "ELFError",
+        "importPath": "elftools.common.exceptions",
+        "description": "elftools.common.exceptions",
+        "isExtraImport": true,
+        "detail": "elftools.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "bytes2str",
+        "importPath": "elftools.common.utils",
+        "description": "elftools.common.utils",
+        "isExtraImport": true,
+        "detail": "elftools.common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "iterbytes",
+        "importPath": "elftools.common.utils",
+        "description": "elftools.common.utils",
+        "isExtraImport": true,
+        "detail": "elftools.common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ELFFile",
+        "importPath": "elftools.elf.elffile",
+        "description": "elftools.elf.elffile",
+        "isExtraImport": true,
+        "detail": "elftools.elf.elffile",
+        "documentation": {}
+    },
+    {
+        "label": "DynamicSection",
+        "importPath": "elftools.elf.dynamic",
+        "description": "elftools.elf.dynamic",
+        "isExtraImport": true,
+        "detail": "elftools.elf.dynamic",
+        "documentation": {}
+    },
+    {
+        "label": "DynamicSegment",
+        "importPath": "elftools.elf.dynamic",
+        "description": "elftools.elf.dynamic",
+        "isExtraImport": true,
+        "detail": "elftools.elf.dynamic",
+        "documentation": {}
+    },
+    {
+        "label": "ENUM_D_TAG",
+        "importPath": "elftools.elf.enums",
+        "description": "elftools.elf.enums",
+        "isExtraImport": true,
+        "detail": "elftools.elf.enums",
+        "documentation": {}
+    },
+    {
+        "label": "InterpSegment",
+        "importPath": "elftools.elf.segments",
+        "description": "elftools.elf.segments",
+        "isExtraImport": true,
+        "detail": "elftools.elf.segments",
+        "documentation": {}
+    },
+    {
+        "label": "NoteSection",
+        "importPath": "elftools.elf.sections",
+        "description": "elftools.elf.sections",
+        "isExtraImport": true,
+        "detail": "elftools.elf.sections",
+        "documentation": {}
+    },
+    {
+        "label": "SymbolTableSection",
+        "importPath": "elftools.elf.sections",
+        "description": "elftools.elf.sections",
+        "isExtraImport": true,
+        "detail": "elftools.elf.sections",
+        "documentation": {}
+    },
+    {
+        "label": "SymbolTableIndexSection",
+        "importPath": "elftools.elf.sections",
+        "description": "elftools.elf.sections",
+        "isExtraImport": true,
+        "detail": "elftools.elf.sections",
+        "documentation": {}
+    },
+    {
+        "label": "GNUVerSymSection",
+        "importPath": "elftools.elf.gnuversions",
+        "description": "elftools.elf.gnuversions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.gnuversions",
+        "documentation": {}
+    },
+    {
+        "label": "GNUVerDefSection",
+        "importPath": "elftools.elf.gnuversions",
+        "description": "elftools.elf.gnuversions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.gnuversions",
+        "documentation": {}
+    },
+    {
+        "label": "GNUVerNeedSection",
+        "importPath": "elftools.elf.gnuversions",
+        "description": "elftools.elf.gnuversions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.gnuversions",
+        "documentation": {}
+    },
+    {
+        "label": "RelocationSection",
+        "importPath": "elftools.elf.relocation",
+        "description": "elftools.elf.relocation",
+        "isExtraImport": true,
+        "detail": "elftools.elf.relocation",
+        "documentation": {}
+    },
+    {
+        "label": "describe_ei_class",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_ei_data",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_ei_version",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_ei_osabi",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_e_type",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_e_machine",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_e_version_numeric",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_p_type",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_p_flags",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_rh_flags",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_sh_type",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_sh_flags",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_symbol_type",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_symbol_bind",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_symbol_visibility",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_symbol_shndx",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_reloc_type",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_dyn_tag",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_dt_flags",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_dt_flags_1",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_ver_flags",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_note",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_attr_tag_arm",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_attr_tag_riscv",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_symbol_other",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "E_FLAGS",
+        "importPath": "elftools.elf.constants",
+        "description": "elftools.elf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.elf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "E_FLAGS_MASKS",
+        "importPath": "elftools.elf.constants",
+        "description": "elftools.elf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.elf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "SH_FLAGS",
+        "importPath": "elftools.elf.constants",
+        "description": "elftools.elf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.elf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "SHN_INDICES",
+        "importPath": "elftools.elf.constants",
+        "description": "elftools.elf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.elf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "DWARFInfo",
+        "importPath": "elftools.dwarf.dwarfinfo",
+        "description": "elftools.dwarf.dwarfinfo",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.dwarfinfo",
+        "documentation": {}
+    },
+    {
+        "label": "describe_reg_name",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_attr_value",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "set_global_machine_arch",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_CFI_instructions",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_CFI_register_rule",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_CFI_CFA_rule",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_DWARF_expr",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "DW_LNS_copy",
+        "importPath": "elftools.dwarf.constants",
+        "description": "elftools.dwarf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "DW_LNS_set_file",
+        "importPath": "elftools.dwarf.constants",
+        "description": "elftools.dwarf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "DW_LNE_define_file",
+        "importPath": "elftools.dwarf.constants",
+        "description": "elftools.dwarf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "LocationParser",
+        "importPath": "elftools.dwarf.locationlists",
+        "description": "elftools.dwarf.locationlists",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.locationlists",
+        "documentation": {}
+    },
+    {
+        "label": "LocationEntry",
+        "importPath": "elftools.dwarf.locationlists",
+        "description": "elftools.dwarf.locationlists",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.locationlists",
+        "documentation": {}
+    },
+    {
+        "label": "LocationViewPair",
+        "importPath": "elftools.dwarf.locationlists",
+        "description": "elftools.dwarf.locationlists",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.locationlists",
+        "documentation": {}
+    },
+    {
+        "label": "BaseAddressEntry",
+        "importPath": "elftools.dwarf.locationlists",
+        "description": "elftools.dwarf.locationlists",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.locationlists",
+        "documentation": {}
+    },
+    {
+        "label": "LocationListsPair",
+        "importPath": "elftools.dwarf.locationlists",
+        "description": "elftools.dwarf.locationlists",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.locationlists",
+        "documentation": {}
+    },
+    {
+        "label": "RangeEntry",
+        "importPath": "elftools.dwarf.ranges",
+        "description": "elftools.dwarf.ranges",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.ranges",
+        "documentation": {}
+    },
+    {
+        "label": "BaseAddressEntry",
+        "importPath": "elftools.dwarf.ranges",
+        "description": "elftools.dwarf.ranges",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.ranges",
+        "documentation": {}
+    },
+    {
+        "label": "RangeListsPair",
+        "importPath": "elftools.dwarf.ranges",
+        "description": "elftools.dwarf.ranges",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.ranges",
+        "documentation": {}
+    },
+    {
+        "label": "CIE",
+        "importPath": "elftools.dwarf.callframe",
+        "description": "elftools.dwarf.callframe",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.callframe",
+        "documentation": {}
+    },
+    {
+        "label": "FDE",
+        "importPath": "elftools.dwarf.callframe",
+        "description": "elftools.dwarf.callframe",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.callframe",
+        "documentation": {}
+    },
+    {
+        "label": "ZERO",
+        "importPath": "elftools.dwarf.callframe",
+        "description": "elftools.dwarf.callframe",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.callframe",
+        "documentation": {}
+    },
+    {
+        "label": "CorruptEHABIEntry",
+        "importPath": "elftools.ehabi.ehabiinfo",
+        "description": "elftools.ehabi.ehabiinfo",
+        "isExtraImport": true,
+        "detail": "elftools.ehabi.ehabiinfo",
+        "documentation": {}
+    },
+    {
+        "label": "CannotUnwindEHABIEntry",
+        "importPath": "elftools.ehabi.ehabiinfo",
+        "description": "elftools.ehabi.ehabiinfo",
+        "isExtraImport": true,
+        "detail": "elftools.ehabi.ehabiinfo",
+        "documentation": {}
+    },
+    {
+        "label": "GenericEHABIEntry",
+        "importPath": "elftools.ehabi.ehabiinfo",
+        "description": "elftools.ehabi.ehabiinfo",
+        "isExtraImport": true,
+        "detail": "elftools.ehabi.ehabiinfo",
+        "documentation": {}
+    },
+    {
+        "label": "ENUM_DW_UT",
+        "importPath": "elftools.dwarf.enums",
+        "description": "elftools.dwarf.enums",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.enums",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "serial",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "serial",
+        "description": "serial",
+        "detail": "serial",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "queue",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "queue",
+        "description": "queue",
+        "detail": "queue",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "getpass",
+        "importPath": "getpass",
+        "description": "getpass",
+        "isExtraImport": true,
+        "detail": "getpass",
+        "documentation": {}
+    },
+    {
+        "label": "VERSION",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bin2hex",
+        "description": ".venv.Scripts.bin2hex",
+        "peekOfCode": "VERSION = '2.3.0'\nif __name__ == '__main__':\n    import getopt\n    import os\n    import sys\n    usage = '''Bin2Hex convertor utility.\nUsage:\n    python bin2hex.py [options] INFILE [OUTFILE]\nArguments:\n    INFILE      name of bin file for processing.",
+        "detail": ".venv.Scripts.bin2hex",
+        "documentation": {}
+    },
+    {
+        "label": "DictProperty",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class DictProperty(object):\n    \"\"\" Property that maps to a key in a local dict-like attribute. \"\"\"\n    def __init__(self, attr, key=None, read_only=False):\n        self.attr, self.key, self.read_only = attr, key, read_only\n    def __call__(self, func):\n        functools.update_wrapper(self, func, updated=[])\n        self.getter, self.key = func, self.key or func.__name__\n        return self\n    def __get__(self, obj, cls):\n        if obj is None: return self",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "cached_property",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class cached_property(object):\n    \"\"\" A property that is only computed once per instance and then replaces\n        itself with an ordinary attribute. Deleting the attribute resets the\n        property. \"\"\"\n    def __init__(self, func):\n        update_wrapper(self, func)\n        self.func = func\n    def __get__(self, obj, cls):\n        if obj is None: return self\n        value = obj.__dict__[self.func.__name__] = self.func(obj)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "lazy_attribute",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class lazy_attribute(object):\n    \"\"\" A property that caches itself to the class object. \"\"\"\n    def __init__(self, func):\n        functools.update_wrapper(self, func, updated=[])\n        self.getter = func\n    def __get__(self, obj, cls):\n        value = self.getter(cls)\n        setattr(cls, self.__name__, value)\n        return value\n###############################################################################",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "BottleException",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class BottleException(Exception):\n    \"\"\" A base class for exceptions used by bottle. \"\"\"\n    pass\n###############################################################################\n# Routing ######################################################################\n###############################################################################\nclass RouteError(BottleException):\n    \"\"\" This is a base class for all routing related exceptions \"\"\"\nclass RouteReset(BottleException):\n    \"\"\" If raised by a plugin or request handler, the route is reset and all",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "RouteError",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class RouteError(BottleException):\n    \"\"\" This is a base class for all routing related exceptions \"\"\"\nclass RouteReset(BottleException):\n    \"\"\" If raised by a plugin or request handler, the route is reset and all\n        plugins are re-applied. \"\"\"\nclass RouterUnknownModeError(RouteError):\n    pass\nclass RouteSyntaxError(RouteError):\n    \"\"\" The route parser found something not supported by this router. \"\"\"\nclass RouteBuildError(RouteError):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "RouteReset",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class RouteReset(BottleException):\n    \"\"\" If raised by a plugin or request handler, the route is reset and all\n        plugins are re-applied. \"\"\"\nclass RouterUnknownModeError(RouteError):\n    pass\nclass RouteSyntaxError(RouteError):\n    \"\"\" The route parser found something not supported by this router. \"\"\"\nclass RouteBuildError(RouteError):\n    \"\"\" The route could not be built. \"\"\"\ndef _re_flatten(p):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "RouterUnknownModeError",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class RouterUnknownModeError(RouteError):\n    pass\nclass RouteSyntaxError(RouteError):\n    \"\"\" The route parser found something not supported by this router. \"\"\"\nclass RouteBuildError(RouteError):\n    \"\"\" The route could not be built. \"\"\"\ndef _re_flatten(p):\n    \"\"\" Turn all capturing groups in a regular expression pattern into\n        non-capturing groups. \"\"\"\n    if '(' not in p:",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "RouteSyntaxError",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class RouteSyntaxError(RouteError):\n    \"\"\" The route parser found something not supported by this router. \"\"\"\nclass RouteBuildError(RouteError):\n    \"\"\" The route could not be built. \"\"\"\ndef _re_flatten(p):\n    \"\"\" Turn all capturing groups in a regular expression pattern into\n        non-capturing groups. \"\"\"\n    if '(' not in p:\n        return p\n    return re.sub(r'(\\\\*)(\\(\\?P<[^>]+>|\\((?!\\?))', lambda m: m.group(0) if",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "RouteBuildError",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class RouteBuildError(RouteError):\n    \"\"\" The route could not be built. \"\"\"\ndef _re_flatten(p):\n    \"\"\" Turn all capturing groups in a regular expression pattern into\n        non-capturing groups. \"\"\"\n    if '(' not in p:\n        return p\n    return re.sub(r'(\\\\*)(\\(\\?P<[^>]+>|\\((?!\\?))', lambda m: m.group(0) if\n                  len(m.group(1)) % 2 else m.group(1) + '(?:', p)\nclass Router(object):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class Router(object):\n    \"\"\" A Router is an ordered collection of route->target pairs. It is used to\n        efficiently match WSGI requests against a number of routes and return\n        the first target that satisfies the request. The target may be anything,\n        usually a string, ID or callable object. A route consists of a path-rule\n        and a HTTP method.\n        The path-rule is either a static path (e.g. `/contact`) or a dynamic\n        path that contains wildcards (e.g. `/wiki/<page>`). The wildcard syntax\n        and details on the matching order are described in docs:`routing`.\n    \"\"\"",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "Route",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class Route(object):\n    \"\"\" This class wraps a route callback along with route specific metadata and\n        configuration and applies Plugins on demand. It is also responsible for\n        turning an URL path rule into a regular expression usable by the Router.\n    \"\"\"\n    def __init__(self, app, rule, method, callback,\n                 name=None,\n                 plugins=None,\n                 skiplist=None, **config):\n        #: The application this route is installed to.",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "Bottle",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class Bottle(object):\n    \"\"\" Each Bottle object represents a single, distinct web application and\n        consists of routes, callbacks, plugins, resources and configuration.\n        Instances are callable WSGI applications.\n        :param catchall: If true (default), handle all exceptions. Turn off to\n                         let debugging middleware handle exceptions.\n    \"\"\"\n    @lazy_attribute\n    def _global_config(cls):\n        cfg = ConfigDict()",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "BaseRequest",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class BaseRequest(object):\n    \"\"\" A wrapper for WSGI environment dictionaries that adds a lot of\n        convenient access methods and properties. Most of them are read-only.\n        Adding new attributes to a request actually adds them to the environ\n        dictionary (as 'bottle.request.ext.<name>'). This is the recommended\n        way to store and access request-specific data.\n    \"\"\"\n    __slots__ = ('environ', )\n    #: Maximum size of memory buffer for :attr:`body` in bytes.\n    MEMFILE_MAX = 102400",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "HeaderProperty",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class HeaderProperty(object):\n    def __init__(self, name, reader=None, writer=None, default=''):\n        self.name, self.default = name, default\n        self.reader, self.writer = reader, writer\n        self.__doc__ = 'Current value of the %r header.' % name.title()\n    def __get__(self, obj, _):\n        if obj is None: return self\n        value = obj.get_header(self.name, self.default)\n        return self.reader(value) if self.reader else value\n    def __set__(self, obj, value):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponse",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class BaseResponse(object):\n    \"\"\" Storage class for a response body as well as headers and cookies.\n        This class does support dict-like case-insensitive item-access to\n        headers, but is NOT a dict. Most notably, iterating over a response\n        yields parts of the body and not the headers.\n    \"\"\"\n    default_status = 200\n    default_content_type = 'text/html; charset=UTF-8'\n    # Header denylist for specific response codes\n    # (rfc2616 section 10.2.3 and 10.3.5)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "LocalRequest",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class LocalRequest(BaseRequest):\n    \"\"\" A thread-local subclass of :class:`BaseRequest` with a different\n        set of attributes for each thread. There is usually only one global\n        instance of this class (:data:`request`). If accessed during a\n        request/response cycle, this instance always refers to the *current*\n        request (even on a multithreaded server). \"\"\"\n    bind = BaseRequest.__init__\n    environ = _local_property()\nclass LocalResponse(BaseResponse):\n    \"\"\" A thread-local subclass of :class:`BaseResponse` with a different",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "LocalResponse",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class LocalResponse(BaseResponse):\n    \"\"\" A thread-local subclass of :class:`BaseResponse` with a different\n        set of attributes for each thread. There is usually only one global\n        instance of this class (:data:`response`). Its attributes are used\n        to build the HTTP response at the end of the request/response cycle.\n    \"\"\"\n    bind = BaseResponse.__init__\n    _status_line = _local_property()\n    _status_code = _local_property()\n    _cookies = _local_property()",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPResponse",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class HTTPResponse(Response, BottleException):\n    \"\"\" A subclass of :class:`Response` that can be raised or returned from request\n        handlers to short-curcuit request processing and override changes made to the\n        global :data:`request` object. This bypasses error handlers, even if the status\n        code indicates an error. Return or raise :class:`HTTPError` to trigger error\n        handlers.\n    \"\"\"\n    def __init__(self, body='', status=None, headers=None, **more_headers):\n        super(HTTPResponse, self).__init__(body, status, headers, **more_headers)\n    def apply(self, other):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPError",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class HTTPError(HTTPResponse):\n    \"\"\" A subclass of :class:`HTTPResponse` that triggers error handlers. \"\"\"\n    default_status = 500\n    def __init__(self,\n                 status=None,\n                 body=None,\n                 exception=None,\n                 traceback=None, **more_headers):\n        self.exception = exception\n        self.traceback = traceback",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "PluginError",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class PluginError(BottleException):\n    pass\nclass JSONPlugin(object):\n    name = 'json'\n    api = 2\n    def __init__(self, json_dumps=json_dumps):\n        self.json_dumps = json_dumps\n    def setup(self, app):\n        app.config._define('json.enable', default=True, validate=bool,\n                          help=\"Enable or disable automatic dict->json filter.\")",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "JSONPlugin",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class JSONPlugin(object):\n    name = 'json'\n    api = 2\n    def __init__(self, json_dumps=json_dumps):\n        self.json_dumps = json_dumps\n    def setup(self, app):\n        app.config._define('json.enable', default=True, validate=bool,\n                          help=\"Enable or disable automatic dict->json filter.\")\n        app.config._define('json.ascii', default=False, validate=bool,\n                          help=\"Use only 7-bit ASCII characters in output.\")",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "TemplatePlugin",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class TemplatePlugin(object):\n    \"\"\" This plugin applies the :func:`view` decorator to all routes with a\n        `template` config parameter. If the parameter is a tuple, the second\n        element must be a dict with additional options (e.g. `template_engine`)\n        or default variables for the template. \"\"\"\n    name = 'template'\n    api = 2\n    def setup(self, app):\n        app.tpl = self\n    def apply(self, callback, route):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "_ImportRedirect",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class _ImportRedirect(object):\n    def __init__(self, name, impmask):\n        \"\"\" Create a virtual package that redirects imports (see PEP 302). \"\"\"\n        self.name = name\n        self.impmask = impmask\n        self.module = sys.modules.setdefault(name, new_module(name))\n        self.module.__dict__.update({\n            '__file__': __file__,\n            '__path__': [],\n            '__all__': [],",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "MultiDict",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class MultiDict(DictMixin):\n    \"\"\" This dict stores multiple values per key, but behaves exactly like a\n        normal dict in that it returns only the newest value for any given key.\n        There are special methods available to access the full list of values.\n    \"\"\"\n    def __init__(self, *a, **k):\n        self.dict = dict((k, [v]) for (k, v) in dict(*a, **k).items())\n    def __len__(self):\n        return len(self.dict)\n    def __iter__(self):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "FormsDict",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class FormsDict(MultiDict):\n    \"\"\" This :class:`MultiDict` subclass is used to store request form data.\n        Additionally to the normal dict-like item access methods (which return\n        unmodified data as native strings), this container also supports\n        attribute-like access to its values. Attributes are automatically de-\n        or recoded to match :attr:`input_encoding` (default: 'utf8'). Missing\n        attributes default to an empty string. \"\"\"\n    #: Encoding used for attribute values.\n    input_encoding = 'utf8'\n    #: If true (default), unicode strings are first encoded with `latin1`",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "HeaderDict",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class HeaderDict(MultiDict):\n    \"\"\" A case-insensitive version of :class:`MultiDict` that defaults to\n        replace the old value instead of appending it. \"\"\"\n    def __init__(self, *a, **ka):\n        self.dict = {}\n        if a or ka: self.update(*a, **ka)\n    def __contains__(self, key):\n        return _hkey(key) in self.dict\n    def __delitem__(self, key):\n        del self.dict[_hkey(key)]",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "WSGIHeaderDict",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class WSGIHeaderDict(DictMixin):\n    \"\"\" This dict-like class wraps a WSGI environ dict and provides convenient\n        access to HTTP_* fields. Keys and values are native strings\n        (2.x bytes or 3.x unicode) and keys are case-insensitive. If the WSGI\n        environment contains non-native string values, these are de- or encoded\n        using a lossless 'latin1' character set.\n        The API will remain stable even on changes to the relevant PEPs.\n        Currently PEP 333, 444 and 3333 are supported. (PEP 444 is the only one\n        that uses non-native strings.)\n    \"\"\"",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class ConfigDict(dict):\n    \"\"\" A dict-like configuration storage with additional support for\n        namespaces, validators, meta-data and overlays.\n        This dict-like class is heavily optimized for read access.\n        Read-only methods and item access should be as fast as a native dict.\n    \"\"\"\n    __slots__ = ('_meta', '_change_listener', '_overlays', '_virtual_keys', '_source', '__weakref__')\n    def __init__(self):\n        self._meta = {}\n        self._change_listener = []",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "AppStack",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class AppStack(list):\n    \"\"\" A stack-like list. Calling it returns the head of the stack. \"\"\"\n    def __call__(self):\n        \"\"\" Return the current default application. \"\"\"\n        return self.default\n    def push(self, value=None):\n        \"\"\" Add a new :class:`Bottle` instance to the stack \"\"\"\n        if not isinstance(value, Bottle):\n            value = Bottle()\n        self.append(value)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "WSGIFileWrapper",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class WSGIFileWrapper(object):\n    def __init__(self, fp, buffer_size=1024 * 64):\n        self.fp, self.buffer_size = fp, buffer_size\n        for attr in 'fileno', 'close', 'read', 'readlines', 'tell', 'seek':\n            if hasattr(fp, attr): setattr(self, attr, getattr(fp, attr))\n    def __iter__(self):\n        buff, read = self.buffer_size, self.read\n        part = read(buff)\n        while part:\n            yield part",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "_closeiter",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class _closeiter(object):\n    \"\"\" This only exists to be able to attach a .close method to iterators that\n        do not support attribute assignment (most of itertools). \"\"\"\n    def __init__(self, iterator, close=None):\n        self.iterator = iterator\n        self.close_callbacks = makelist(close)\n    def __iter__(self):\n        return iter(self.iterator)\n    def close(self):\n        for func in self.close_callbacks:",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "ResourceManager",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class ResourceManager(object):\n    \"\"\" This class manages a list of search paths and helps to find and open\n        application-bound resources (files).\n        :param base: default value for :meth:`add_path` calls.\n        :param opener: callable used to open resources.\n        :param cachemode: controls which lookups are cached. One of 'all',\n                         'found' or 'none'.\n    \"\"\"\n    def __init__(self, base='./', opener=open, cachemode='all'):\n        self.opener = opener",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "FileUpload",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class FileUpload(object):\n    def __init__(self, fileobj, name, filename, headers=None):\n        \"\"\" Wrapper for a single file uploaded via ``multipart/form-data``. \"\"\"\n        #: Open file(-like) object (BytesIO buffer or temporary file)\n        self.file = fileobj\n        #: Name of the upload form field\n        self.name = name\n        #: Raw filename as sent by the client (may contain unsafe characters)\n        self.raw_filename = filename\n        #: A :class:`HeaderDict` with additional headers (e.g. content-type)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "MultipartError",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class MultipartError(HTTPError):\n    def __init__(self, msg):\n        HTTPError.__init__(self, 400, \"MultipartError: \" + msg)\nclass _MultipartParser(object):\n    def __init__(\n        self,\n        stream,\n        boundary,\n        content_length=-1,\n        disk_limit=2 ** 30,",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "_MultipartParser",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class _MultipartParser(object):\n    def __init__(\n        self,\n        stream,\n        boundary,\n        content_length=-1,\n        disk_limit=2 ** 30,\n        mem_limit=2 ** 20,\n        memfile_limit=2 ** 18,\n        buffer_size=2 ** 16,",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "_MultipartPart",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class _MultipartPart(object):\n    def __init__(self, buffer_size=2 ** 16, memfile_limit=2 ** 18, charset=\"latin1\"):\n        self.headerlist = []\n        self.headers = None\n        self.file = False\n        self.size = 0\n        self._buf = b\"\"\n        self.disposition = None\n        self.name = None\n        self.filename = None",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "ServerAdapter",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class ServerAdapter(object):\n    quiet = False\n    def __init__(self, host='127.0.0.1', port=8080, **options):\n        self.options = options\n        self.host = host\n        self.port = int(port)\n    def run(self, handler):  # pragma: no cover\n        pass\n    def __repr__(self):\n        args = ', '.join('%s=%s' % (k, repr(v))",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "CGIServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class CGIServer(ServerAdapter):\n    quiet = True\n    def run(self, handler):  # pragma: no cover\n        from wsgiref.handlers import CGIHandler\n        def fixed_environ(environ, start_response):\n            environ.setdefault('PATH_INFO', '')\n            return handler(environ, start_response)\n        CGIHandler().run(fixed_environ)\nclass FlupFCGIServer(ServerAdapter):\n    def run(self, handler):  # pragma: no cover",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "FlupFCGIServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class FlupFCGIServer(ServerAdapter):\n    def run(self, handler):  # pragma: no cover\n        import flup.server.fcgi\n        self.options.setdefault('bindAddress', (self.host, self.port))\n        flup.server.fcgi.WSGIServer(handler, **self.options).run()\nclass WSGIRefServer(ServerAdapter):\n    def run(self, app):  # pragma: no cover\n        from wsgiref.simple_server import make_server\n        from wsgiref.simple_server import WSGIRequestHandler, WSGIServer\n        import socket",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "WSGIRefServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class WSGIRefServer(ServerAdapter):\n    def run(self, app):  # pragma: no cover\n        from wsgiref.simple_server import make_server\n        from wsgiref.simple_server import WSGIRequestHandler, WSGIServer\n        import socket\n        class FixedHandler(WSGIRequestHandler):\n            def address_string(self):  # Prevent reverse DNS lookups please.\n                return self.client_address[0]\n            def log_request(*args, **kw):\n                if not self.quiet:",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "CherryPyServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class CherryPyServer(ServerAdapter):\n    def run(self, handler):  # pragma: no cover\n        depr(0, 13, \"The wsgi server part of cherrypy was split into a new \"\n                    \"project called 'cheroot'.\", \"Use the 'cheroot' server \"\n                    \"adapter instead of cherrypy.\")\n        from cherrypy import wsgiserver # This will fail for CherryPy >= 9\n        self.options['bind_addr'] = (self.host, self.port)\n        self.options['wsgi_app'] = handler\n        certfile = self.options.get('certfile')\n        if certfile:",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "CherootServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class CherootServer(ServerAdapter):\n    def run(self, handler): # pragma: no cover\n        from cheroot import wsgi\n        from cheroot.ssl import builtin\n        self.options['bind_addr'] = (self.host, self.port)\n        self.options['wsgi_app'] = handler\n        certfile = self.options.pop('certfile', None)\n        keyfile = self.options.pop('keyfile', None)\n        chainfile = self.options.pop('chainfile', None)\n        server = wsgi.Server(**self.options)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "WaitressServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class WaitressServer(ServerAdapter):\n    def run(self, handler):\n        from waitress import serve\n        serve(handler, host=self.host, port=self.port, _quiet=self.quiet, **self.options)\nclass PasteServer(ServerAdapter):\n    def run(self, handler):  # pragma: no cover\n        from paste import httpserver\n        from paste.translogger import TransLogger\n        handler = TransLogger(handler, setup_console_handler=(not self.quiet))\n        httpserver.serve(handler,",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "PasteServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class PasteServer(ServerAdapter):\n    def run(self, handler):  # pragma: no cover\n        from paste import httpserver\n        from paste.translogger import TransLogger\n        handler = TransLogger(handler, setup_console_handler=(not self.quiet))\n        httpserver.serve(handler,\n                         host=self.host,\n                         port=str(self.port), **self.options)\nclass MeinheldServer(ServerAdapter):\n    def run(self, handler):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "MeinheldServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class MeinheldServer(ServerAdapter):\n    def run(self, handler):\n        from meinheld import server\n        server.listen((self.host, self.port))\n        server.run(handler)\nclass FapwsServer(ServerAdapter):\n    \"\"\" Extremely fast webserver using libev. See https://github.com/william-os4y/fapws3 \"\"\"\n    def run(self, handler):  # pragma: no cover\n        depr(0, 13, \"fapws3 is not maintained and support will be dropped.\")\n        import fapws._evwsgi as evwsgi",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "FapwsServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class FapwsServer(ServerAdapter):\n    \"\"\" Extremely fast webserver using libev. See https://github.com/william-os4y/fapws3 \"\"\"\n    def run(self, handler):  # pragma: no cover\n        depr(0, 13, \"fapws3 is not maintained and support will be dropped.\")\n        import fapws._evwsgi as evwsgi\n        from fapws import base, config\n        port = self.port\n        if float(config.SERVER_IDENT[-2:]) > 0.4:\n            # fapws3 silently changed its API in 0.5\n            port = str(port)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "TornadoServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class TornadoServer(ServerAdapter):\n    \"\"\" The super hyped asynchronous server by facebook. Untested. \"\"\"\n    def run(self, handler):  # pragma: no cover\n        import tornado.wsgi, tornado.httpserver, tornado.ioloop\n        container = tornado.wsgi.WSGIContainer(handler)\n        server = tornado.httpserver.HTTPServer(container)\n        server.listen(port=self.port, address=self.host)\n        tornado.ioloop.IOLoop.instance().start()\nclass AppEngineServer(ServerAdapter):\n    \"\"\" Adapter for Google App Engine. \"\"\"",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "AppEngineServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class AppEngineServer(ServerAdapter):\n    \"\"\" Adapter for Google App Engine. \"\"\"\n    quiet = True\n    def run(self, handler):\n        depr(0, 13, \"AppEngineServer no longer required\",\n             \"Configure your application directly in your app.yaml\")\n        from google.appengine.ext.webapp import util\n        # A main() function in the handler script enables 'App Caching'.\n        # Lets makes sure it is there. This _really_ improves performance.\n        module = sys.modules.get('__main__')",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "TwistedServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class TwistedServer(ServerAdapter):\n    \"\"\" Untested. \"\"\"\n    def run(self, handler):\n        from twisted.web import server, wsgi\n        from twisted.python.threadpool import ThreadPool\n        from twisted.internet import reactor\n        thread_pool = ThreadPool()\n        thread_pool.start()\n        reactor.addSystemEventTrigger('after', 'shutdown', thread_pool.stop)\n        factory = server.Site(wsgi.WSGIResource(reactor, thread_pool, handler))",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "DieselServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class DieselServer(ServerAdapter):\n    \"\"\" Untested. \"\"\"\n    def run(self, handler):\n        depr(0, 13, \"Diesel is not tested or supported and will be removed.\")\n        from diesel.protocols.wsgi import WSGIApplication\n        app = WSGIApplication(handler, port=self.port)\n        app.run()\nclass GeventServer(ServerAdapter):\n    \"\"\" Untested. Options:\n        * See gevent.wsgi.WSGIServer() documentation for more options.",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "GeventServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class GeventServer(ServerAdapter):\n    \"\"\" Untested. Options:\n        * See gevent.wsgi.WSGIServer() documentation for more options.\n    \"\"\"\n    def run(self, handler):\n        from gevent import pywsgi, local\n        if not isinstance(threading.local(), local.local):\n            msg = \"Bottle requires gevent.monkey.patch_all() (before import)\"\n            raise RuntimeError(msg)\n        if self.quiet:",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "GunicornServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class GunicornServer(ServerAdapter):\n    \"\"\" Untested. See http://gunicorn.org/configure.html for options. \"\"\"\n    def run(self, handler):\n        from gunicorn.app.base import BaseApplication\n        if self.host.startswith(\"unix:\"):\n            config = {'bind': self.host}\n        else:\n            config = {'bind': \"%s:%d\" % (self.host, self.port)}\n        config.update(self.options)\n        class GunicornApplication(BaseApplication):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "EventletServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class EventletServer(ServerAdapter):\n    \"\"\" Untested. Options:\n        * `backlog` adjust the eventlet backlog parameter which is the maximum\n          number of queued connections. Should be at least 1; the maximum\n          value is system-dependent.\n        * `family`: (default is 2) socket family, optional. See socket\n          documentation for available families.\n    \"\"\"\n    def run(self, handler):\n        from eventlet import wsgi, listen, patcher",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "BjoernServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class BjoernServer(ServerAdapter):\n    \"\"\" Fast server written in C: https://github.com/jonashaag/bjoern \"\"\"\n    def run(self, handler):\n        from bjoern import run\n        run(handler, self.host, self.port, reuse_port=True)\nclass AsyncioServerAdapter(ServerAdapter):\n    \"\"\" Extend ServerAdapter for adding custom event loop \"\"\"\n    def get_event_loop(self):\n        pass\nclass AiohttpServer(AsyncioServerAdapter):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncioServerAdapter",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class AsyncioServerAdapter(ServerAdapter):\n    \"\"\" Extend ServerAdapter for adding custom event loop \"\"\"\n    def get_event_loop(self):\n        pass\nclass AiohttpServer(AsyncioServerAdapter):\n    \"\"\" Asynchronous HTTP client/server framework for asyncio\n        https://pypi.python.org/pypi/aiohttp/\n        https://pypi.org/project/aiohttp-wsgi/\n    \"\"\"\n    def get_event_loop(self):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "AiohttpServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class AiohttpServer(AsyncioServerAdapter):\n    \"\"\" Asynchronous HTTP client/server framework for asyncio\n        https://pypi.python.org/pypi/aiohttp/\n        https://pypi.org/project/aiohttp-wsgi/\n    \"\"\"\n    def get_event_loop(self):\n        import asyncio\n        return asyncio.new_event_loop()\n    def run(self, handler):\n        import asyncio",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "AiohttpUVLoopServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class AiohttpUVLoopServer(AiohttpServer):\n    \"\"\"uvloop\n       https://github.com/MagicStack/uvloop\n    \"\"\"\n    def get_event_loop(self):\n        import uvloop\n        return uvloop.new_event_loop()\nclass AutoServer(ServerAdapter):\n    \"\"\" Untested. \"\"\"\n    adapters = [WaitressServer, PasteServer, TwistedServer, CherryPyServer,",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "AutoServer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class AutoServer(ServerAdapter):\n    \"\"\" Untested. \"\"\"\n    adapters = [WaitressServer, PasteServer, TwistedServer, CherryPyServer,\n                CherootServer, WSGIRefServer]\n    def run(self, handler):\n        for sa in self.adapters:\n            try:\n                return sa(self.host, self.port, **self.options).run(handler)\n            except ImportError:\n                pass",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "FileCheckerThread",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class FileCheckerThread(threading.Thread):\n    \"\"\" Interrupt main-thread as soon as a changed module file is detected,\n        the lockfile gets deleted or gets too old. \"\"\"\n    def __init__(self, lockfile, interval):\n        threading.Thread.__init__(self)\n        self.daemon = True\n        self.lockfile, self.interval = lockfile, interval\n        #: Is one of 'reload', 'error' or 'exit'\n        self.status = None\n    def run(self):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "TemplateError",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class TemplateError(BottleException):\n    pass\nclass BaseTemplate(object):\n    \"\"\" Base class and minimal API for template adapters \"\"\"\n    extensions = ['tpl', 'html', 'thtml', 'stpl']\n    settings = {}  #used in prepare()\n    defaults = {}  #used in render()\n    def __init__(self,\n                 source=None,\n                 name=None,",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTemplate",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class BaseTemplate(object):\n    \"\"\" Base class and minimal API for template adapters \"\"\"\n    extensions = ['tpl', 'html', 'thtml', 'stpl']\n    settings = {}  #used in prepare()\n    defaults = {}  #used in render()\n    def __init__(self,\n                 source=None,\n                 name=None,\n                 lookup=None,\n                 encoding='utf8', **settings):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "MakoTemplate",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class MakoTemplate(BaseTemplate):\n    def prepare(self, **options):\n        from mako.template import Template\n        from mako.lookup import TemplateLookup\n        options.update({'input_encoding': self.encoding})\n        options.setdefault('format_exceptions', bool(DEBUG))\n        lookup = TemplateLookup(directories=self.lookup, **options)\n        if self.source:\n            self.tpl = Template(self.source, lookup=lookup, **options)\n        else:",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "CheetahTemplate",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class CheetahTemplate(BaseTemplate):\n    def prepare(self, **options):\n        from Cheetah.Template import Template\n        self.context = threading.local()\n        self.context.vars = {}\n        options['searchList'] = [self.context.vars]\n        if self.source:\n            self.tpl = Template(source=self.source, **options)\n        else:\n            self.tpl = Template(file=self.filename, **options)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "Jinja2Template",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class Jinja2Template(BaseTemplate):\n    def prepare(self, filters=None, tests=None, globals={}, **kwargs):\n        from jinja2 import Environment, FunctionLoader\n        self.env = Environment(loader=FunctionLoader(self.loader), **kwargs)\n        if filters: self.env.filters.update(filters)\n        if tests: self.env.tests.update(tests)\n        if globals: self.env.globals.update(globals)\n        if self.source:\n            self.tpl = self.env.from_string(self.source)\n        else:",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleTemplate",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class SimpleTemplate(BaseTemplate):\n    def prepare(self,\n                escape_func=html_escape,\n                noescape=False,\n                syntax=None, **ka):\n        self.cache = {}\n        enc = self.encoding\n        self._str = lambda x: touni(x, enc)\n        self._escape = lambda x: escape_func(touni(x, enc))\n        self.syntax = syntax",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "StplSyntaxError",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class StplSyntaxError(TemplateError):\n    pass\nclass StplParser(object):\n    \"\"\" Parser for stpl templates. \"\"\"\n    _re_cache = {}  #: Cache for compiled re patterns\n    # This huge pile of voodoo magic splits python code into 8 different tokens.\n    # We use the verbose (?x) regex mode to make this more manageable\n    _re_tok = r'''(\n        [urbURB]*\n        (?:  ''(?!')",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "StplParser",
+        "kind": 6,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "class StplParser(object):\n    \"\"\" Parser for stpl templates. \"\"\"\n    _re_cache = {}  #: Cache for compiled re patterns\n    # This huge pile of voodoo magic splits python code into 8 different tokens.\n    # We use the verbose (?x) regex mode to make this more manageable\n    _re_tok = r'''(\n        [urbURB]*\n        (?:  ''(?!')\n            |\"\"(?!\")\n            |'{6}",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "tob",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def tob(s, enc='utf8'):\n    if isinstance(s, unicode):\n        return s.encode(enc)\n    return b'' if s is None else bytes(s)\ndef touni(s, enc='utf8', err='strict'):\n    if isinstance(s, bytes):\n        return s.decode(enc, err)\n    return unicode(\"\" if s is None else s)\ntonat = touni if py3k else tob\ndef _stderr(*args):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "touni",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def touni(s, enc='utf8', err='strict'):\n    if isinstance(s, bytes):\n        return s.decode(enc, err)\n    return unicode(\"\" if s is None else s)\ntonat = touni if py3k else tob\ndef _stderr(*args):\n    try:\n        print(*args, file=sys.stderr)\n    except (IOError, AttributeError):\n        pass # Some environments do not allow printing (mod_wsgi)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "update_wrapper",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def update_wrapper(wrapper, wrapped, *a, **ka):\n    try:\n        functools.update_wrapper(wrapper, wrapped, *a, **ka)\n    except AttributeError:\n        pass\n# These helpers are used at module level and need to be defined first.\n# And yes, I know PEP-8, but sometimes a lower-case classname makes more sense.\ndef depr(major, minor, cause, fix, stacklevel=3):\n    text = \"Warning: Use of deprecated feature or API. (Deprecated in Bottle-%d.%d)\\n\"\\\n           \"Cause: %s\\n\"\\",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "depr",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def depr(major, minor, cause, fix, stacklevel=3):\n    text = \"Warning: Use of deprecated feature or API. (Deprecated in Bottle-%d.%d)\\n\"\\\n           \"Cause: %s\\n\"\\\n           \"Fix: %s\\n\" % (major, minor, cause, fix)\n    if DEBUG == 'strict':\n        raise DeprecationWarning(text)\n    warnings.warn(text, DeprecationWarning, stacklevel=stacklevel)\n    return DeprecationWarning(text)\ndef makelist(data):  # This is just too handy\n    if isinstance(data, (tuple, list, set, dict)):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "makelist",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def makelist(data):  # This is just too handy\n    if isinstance(data, (tuple, list, set, dict)):\n        return list(data)\n    elif data:\n        return [data]\n    else:\n        return []\nclass DictProperty(object):\n    \"\"\" Property that maps to a key in a local dict-like attribute. \"\"\"\n    def __init__(self, attr, key=None, read_only=False):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def abort(code=500, text='Unknown Error.'):\n    \"\"\" Aborts execution and causes a HTTP error. \"\"\"\n    raise HTTPError(code, text)\ndef redirect(url, code=None):\n    \"\"\" Aborts execution and causes a 303 or 302 redirect, depending on\n        the HTTP protocol version. \"\"\"\n    if not code:\n        code = 303 if request.get('SERVER_PROTOCOL') == \"HTTP/1.1\" else 302\n    res = response.copy(cls=HTTPResponse)\n    res.status = code",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def redirect(url, code=None):\n    \"\"\" Aborts execution and causes a 303 or 302 redirect, depending on\n        the HTTP protocol version. \"\"\"\n    if not code:\n        code = 303 if request.get('SERVER_PROTOCOL') == \"HTTP/1.1\" else 302\n    res = response.copy(cls=HTTPResponse)\n    res.status = code\n    res.body = \"\"\n    res.set_header('Location', urljoin(request.url, url))\n    raise res",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "static_file",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def static_file(filename, root,\n                mimetype=True,\n                download=False,\n                charset='UTF-8',\n                etag=None,\n                headers=None):\n    \"\"\" Open a file in a safe way and return an instance of :exc:`HTTPResponse`\n        that can be sent back to the client.\n        :param filename: Name or path of the file to send, relative to ``root``.\n        :param root: Root path for file lookups. Should be an absolute directory",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "debug",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def debug(mode=True):\n    \"\"\" Change the debug level.\n    There is only one debug level supported at the moment.\"\"\"\n    global DEBUG\n    if mode: warnings.simplefilter('default')\n    DEBUG = bool(mode)\ndef http_date(value):\n    if isinstance(value, basestring):\n        return value\n    if isinstance(value, datetime):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "http_date",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def http_date(value):\n    if isinstance(value, basestring):\n        return value\n    if isinstance(value, datetime):\n        # aware datetime.datetime is converted to UTC time\n        # naive datetime.datetime is treated as UTC time\n        value = value.utctimetuple()\n    elif isinstance(value, datedate):\n        # datetime.date is naive, and is treated as UTC time\n        value = value.timetuple()",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "parse_date",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def parse_date(ims):\n    \"\"\" Parse rfc1123, rfc850 and asctime timestamps and return UTC epoch. \"\"\"\n    try:\n        ts = email.utils.parsedate_tz(ims)\n        return calendar.timegm(ts[:8] + (0, )) - (ts[9] or 0)\n    except (TypeError, ValueError, IndexError, OverflowError):\n        return None\ndef parse_auth(header):\n    \"\"\" Parse rfc2617 HTTP authentication header string (basic) and return (user,pass) tuple or None\"\"\"\n    try:",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "parse_auth",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def parse_auth(header):\n    \"\"\" Parse rfc2617 HTTP authentication header string (basic) and return (user,pass) tuple or None\"\"\"\n    try:\n        method, data = header.split(None, 1)\n        if method.lower() == 'basic':\n            user, pwd = touni(base64.b64decode(tob(data))).split(':', 1)\n            return user, pwd\n    except (KeyError, ValueError):\n        return None\ndef parse_range_header(header, maxlen=0):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "parse_range_header",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def parse_range_header(header, maxlen=0):\n    \"\"\" Yield (start, end) ranges parsed from a HTTP Range header. Skip\n        unsatisfiable ranges. The end index is non-inclusive.\"\"\"\n    if not header or header[:6] != 'bytes=': return\n    ranges = [r.split('-', 1) for r in header[6:].split(',') if '-' in r]\n    for start, end in ranges:\n        try:\n            if not start:  # bytes=-100    -> last 100 bytes\n                start, end = max(0, maxlen - int(end)), maxlen\n            elif not end:  # bytes=100-    -> all but the first 99 bytes",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "cookie_encode",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def cookie_encode(data, key, digestmod=None):\n    \"\"\" Encode and sign a pickle-able object. Return a (byte) string \"\"\"\n    depr(0, 13, \"cookie_encode() will be removed soon.\",\n                \"Do not use this API directly.\")\n    digestmod = digestmod or hashlib.sha256\n    msg = base64.b64encode(pickle.dumps(data, -1))\n    sig = base64.b64encode(hmac.new(tob(key), msg, digestmod=digestmod).digest())\n    return tob('!') + sig + tob('?') + msg\ndef cookie_decode(data, key, digestmod=None):\n    \"\"\" Verify and decode an encoded string. Return an object or None.\"\"\"",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "cookie_decode",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def cookie_decode(data, key, digestmod=None):\n    \"\"\" Verify and decode an encoded string. Return an object or None.\"\"\"\n    depr(0, 13, \"cookie_decode() will be removed soon.\",\n                \"Do not use this API directly.\")\n    data = tob(data)\n    if cookie_is_encoded(data):\n        sig, msg = data.split(tob('?'), 1)\n        digestmod = digestmod or hashlib.sha256\n        hashed = hmac.new(tob(key), msg, digestmod=digestmod).digest()\n        if _lscmp(sig[1:], base64.b64encode(hashed)):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "cookie_is_encoded",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def cookie_is_encoded(data):\n    \"\"\" Return True if the argument looks like a encoded cookie.\"\"\"\n    depr(0, 13, \"cookie_is_encoded() will be removed soon.\",\n                \"Do not use this API directly.\")\n    return bool(data.startswith(tob('!')) and tob('?') in data)\ndef html_escape(string):\n    \"\"\" Escape HTML special characters ``&<>`` and quotes ``'\"``. \"\"\"\n    return string.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')\\\n                 .replace('\"', '&quot;').replace(\"'\", '&#039;')\ndef html_quote(string):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "html_escape",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def html_escape(string):\n    \"\"\" Escape HTML special characters ``&<>`` and quotes ``'\"``. \"\"\"\n    return string.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')\\\n                 .replace('\"', '&quot;').replace(\"'\", '&#039;')\ndef html_quote(string):\n    \"\"\" Escape and quote a string to be used as an HTTP attribute.\"\"\"\n    return '\"%s\"' % html_escape(string).replace('\\n', '&#10;')\\\n                    .replace('\\r', '&#13;').replace('\\t', '&#9;')\ndef yieldroutes(func):\n    \"\"\" Return a generator for routes that match the signature (name, args)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "html_quote",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def html_quote(string):\n    \"\"\" Escape and quote a string to be used as an HTTP attribute.\"\"\"\n    return '\"%s\"' % html_escape(string).replace('\\n', '&#10;')\\\n                    .replace('\\r', '&#13;').replace('\\t', '&#9;')\ndef yieldroutes(func):\n    \"\"\" Return a generator for routes that match the signature (name, args)\n    of the func parameter. This may yield more than one route if the function\n    takes optional keyword arguments. The output is best described by example::\n        a()         -> '/a'\n        b(x, y)     -> '/b/<x>/<y>'",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "yieldroutes",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def yieldroutes(func):\n    \"\"\" Return a generator for routes that match the signature (name, args)\n    of the func parameter. This may yield more than one route if the function\n    takes optional keyword arguments. The output is best described by example::\n        a()         -> '/a'\n        b(x, y)     -> '/b/<x>/<y>'\n        c(x, y=5)   -> '/c/<x>' and '/c/<x>/<y>'\n        d(x=5, y=6) -> '/d' and '/d/<x>' and '/d/<x>/<y>'\n    \"\"\"\n    path = '/' + func.__name__.replace('__', '/').lstrip('/')",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "path_shift",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def path_shift(script_name, path_info, shift=1):\n    \"\"\" Shift path fragments from PATH_INFO to SCRIPT_NAME and vice versa.\n        :return: The modified paths.\n        :param script_name: The SCRIPT_NAME path.\n        :param script_name: The PATH_INFO path.\n        :param shift: The number of path fragments to shift. May be negative to\n          change the shift direction. (default: 1)\n    \"\"\"\n    if shift == 0: return script_name, path_info\n    pathlist = path_info.strip('/').split('/')",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "auth_basic",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def auth_basic(check, realm=\"private\", text=\"Access denied\"):\n    \"\"\" Callback decorator to require HTTP auth (basic).\n        TODO: Add route(check_auth=...) parameter. \"\"\"\n    def decorator(func):\n        @functools.wraps(func)\n        def wrapper(*a, **ka):\n            user, password = request.auth or (None, None)\n            if user is None or not check(user, password):\n                err = HTTPError(401, text)\n                err.add_header('WWW-Authenticate', 'Basic realm=\"%s\"' % realm)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "make_default_app_wrapper",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def make_default_app_wrapper(name):\n    \"\"\" Return a callable that relays calls to the current default app. \"\"\"\n    @functools.wraps(getattr(Bottle, name))\n    def wrapper(*a, **ka):\n        return getattr(app(), name)(*a, **ka)\n    return wrapper\nroute     = make_default_app_wrapper('route')\nget       = make_default_app_wrapper('get')\npost      = make_default_app_wrapper('post')\nput       = make_default_app_wrapper('put')",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "load",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def load(target, **namespace):\n    \"\"\" Import a module or fetch an object from a module.\n        * ``package.module`` returns `module` as a module object.\n        * ``pack.mod:name`` returns the module variable `name` from `pack.mod`.\n        * ``pack.mod:func()`` calls `pack.mod.func()` and returns the result.\n        The last form accepts not only function calls, but any type of\n        expression. Keyword arguments passed to this function are available as\n        local variables. Example: ``import_string('re:compile(x)', x='[a-z]')``\n    \"\"\"\n    module, target = target.split(\":\", 1) if ':' in target else (target, None)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "load_app",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def load_app(target):\n    \"\"\" Load a bottle application from a module and make sure that the import\n        does not affect the current default application, but returns a separate\n        application object. See :func:`load` for the target parameter. \"\"\"\n    global NORUN\n    NORUN, nr_old = True, NORUN\n    tmp = default_app.push()  # Create a new \"default application\"\n    try:\n        rv = load(target)  # Import the target module\n        return rv if callable(rv) else tmp",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def run(app=None,\n        server='wsgiref',\n        host='127.0.0.1',\n        port=8080,\n        interval=1,\n        reloader=False,\n        quiet=False,\n        plugins=None,\n        debug=None,\n        config=None, **kargs):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "template",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def template(*args, **kwargs):\n    \"\"\"\n    Get a rendered template as a string iterator.\n    You can use a name, a filename or a template string as first parameter.\n    Template rendering arguments can be passed as dictionaries\n    or directly (as keyword arguments).\n    \"\"\"\n    tpl = args[0] if args else None\n    for dictarg in args[1:]:\n        kwargs.update(dictarg)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "view",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def view(tpl_name, **defaults):\n    \"\"\" Decorator: renders a template for a handler.\n        The handler can control its behavior like that:\n          - return a dict of template vars to fill out the template\n          - return something other than a dict and the view decorator will not\n            process the template, but return the handler result as is.\n            This includes returning a HTTPResponse(dict) to get,\n            for instance, JSON with autojson or other castfilters.\n    \"\"\"\n    def decorator(func):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "def main():\n    _main(sys.argv)\nif __name__ == '__main__':  # pragma: no coverage\n    main()",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "__author__",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "__author__ = 'Marcel Hellkamp'\n__version__ = '0.13.4'\n__license__ = 'MIT'\n###############################################################################\n# Command-line interface ######################################################\n###############################################################################\n# INFO: Some server adapters need to monkey-patch std-lib modules before they\n# are imported. This is why some of the command-line handling is done here, but\n# the actual call to _main() is at the end of the file.\ndef _cli_parse(args):  # pragma: no coverage",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "__version__ = '0.13.4'\n__license__ = 'MIT'\n###############################################################################\n# Command-line interface ######################################################\n###############################################################################\n# INFO: Some server adapters need to monkey-patch std-lib modules before they\n# are imported. This is why some of the command-line handling is done here, but\n# the actual call to _main() is at the end of the file.\ndef _cli_parse(args):  # pragma: no coverage\n    from argparse import ArgumentParser",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "__license__",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "__license__ = 'MIT'\n###############################################################################\n# Command-line interface ######################################################\n###############################################################################\n# INFO: Some server adapters need to monkey-patch std-lib modules before they\n# are imported. This is why some of the command-line handling is done here, but\n# the actual call to _main() is at the end of the file.\ndef _cli_parse(args):  # pragma: no coverage\n    from argparse import ArgumentParser\n    parser = ArgumentParser(prog=args[0], usage=\"%(prog)s [options] package.module:app\")",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "py",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "py = sys.version_info\npy3k = py.major > 2\n# Lots of stdlib and builtin differences.\nif py3k:\n    import http.client as httplib\n    import _thread as thread\n    from urllib.parse import urljoin, SplitResult as UrlSplitResult\n    from urllib.parse import urlencode, quote as urlquote, unquote as urlunquote\n    urlunquote = functools.partial(urlunquote, encoding='latin1')\n    from http.cookies import SimpleCookie, Morsel, CookieError",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "py3k",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "py3k = py.major > 2\n# Lots of stdlib and builtin differences.\nif py3k:\n    import http.client as httplib\n    import _thread as thread\n    from urllib.parse import urljoin, SplitResult as UrlSplitResult\n    from urllib.parse import urlencode, quote as urlquote, unquote as urlunquote\n    urlunquote = functools.partial(urlunquote, encoding='latin1')\n    from http.cookies import SimpleCookie, Morsel, CookieError\n    from collections.abc import MutableMapping as DictMixin",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "tonat",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "tonat = touni if py3k else tob\ndef _stderr(*args):\n    try:\n        print(*args, file=sys.stderr)\n    except (IOError, AttributeError):\n        pass # Some environments do not allow printing (mod_wsgi)\n# A bug in functools causes it to break if the wrapper is an instance method\ndef update_wrapper(wrapper, wrapped, *a, **ka):\n    try:\n        functools.update_wrapper(wrapper, wrapped, *a, **ka)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "Request = BaseRequest\nResponse = BaseResponse\nclass HTTPResponse(Response, BottleException):\n    \"\"\" A subclass of :class:`Response` that can be raised or returned from request\n        handlers to short-curcuit request processing and override changes made to the\n        global :data:`request` object. This bypasses error handlers, even if the status\n        code indicates an error. Return or raise :class:`HTTPError` to trigger error\n        handlers.\n    \"\"\"\n    def __init__(self, body='', status=None, headers=None, **more_headers):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "Response = BaseResponse\nclass HTTPResponse(Response, BottleException):\n    \"\"\" A subclass of :class:`Response` that can be raised or returned from request\n        handlers to short-curcuit request processing and override changes made to the\n        global :data:`request` object. This bypasses error handlers, even if the status\n        code indicates an error. Return or raise :class:`HTTPError` to trigger error\n        handlers.\n    \"\"\"\n    def __init__(self, body='', status=None, headers=None, **more_headers):\n        super(HTTPResponse, self).__init__(body, status, headers, **more_headers)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "_UNSET",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "_UNSET = object()\nclass ConfigDict(dict):\n    \"\"\" A dict-like configuration storage with additional support for\n        namespaces, validators, meta-data and overlays.\n        This dict-like class is heavily optimized for read access.\n        Read-only methods and item access should be as fast as a native dict.\n    \"\"\"\n    __slots__ = ('_meta', '_change_listener', '_overlays', '_virtual_keys', '_source', '__weakref__')\n    def __init__(self):\n        self._meta = {}",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "_hsplit",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "_hsplit = re.compile('(?:(?:\"((?:[^\"\\\\\\\\]|\\\\\\\\.)*)\")|([^;,=]+))([;,=]?)').findall\ndef _parse_http_header(h):\n    \"\"\" Parses a typical multi-valued and parametrised HTTP header (e.g. Accept headers) and returns a list of values\n        and parameters. For non-standard or broken input, this implementation may return partial results.\n    :param h: A header string (e.g. ``text/html,text/plain;q=0.9,*/*;q=0.8``)\n    :return: List of (value, params) tuples. The second element is a (possibly empty) dict.\n    \"\"\"\n    values = []\n    if '\"' not in h:  # INFO: Fast path without regexp (~2x faster)\n        for value in h.split(','):",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "uninstall = make_default_app_wrapper('uninstall')\nurl       = make_default_app_wrapper('get_url')\n###############################################################################\n# Multipart Handling ###########################################################\n###############################################################################\n# cgi.FieldStorage was deprecated in Python 3.11 and removed in 3.13\n# This implementation is based on https://github.com/defnull/multipart/\nclass MultipartError(HTTPError):\n    def __init__(self, msg):\n        HTTPError.__init__(self, 400, \"MultipartError: \" + msg)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "server_names",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "server_names = {\n    'cgi': CGIServer,\n    'flup': FlupFCGIServer,\n    'wsgiref': WSGIRefServer,\n    'waitress': WaitressServer,\n    'cherrypy': CherryPyServer,\n    'cheroot': CherootServer,\n    'paste': PasteServer,\n    'fapws3': FapwsServer,\n    'tornado': TornadoServer,",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "_debug",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "_debug = debug\ndef run(app=None,\n        server='wsgiref',\n        host='127.0.0.1',\n        port=8080,\n        interval=1,\n        reloader=False,\n        quiet=False,\n        plugins=None,\n        debug=None,",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "mako_template",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "mako_template = functools.partial(template, template_adapter=MakoTemplate)\ncheetah_template = functools.partial(template,\n                                     template_adapter=CheetahTemplate)\njinja2_template = functools.partial(template, template_adapter=Jinja2Template)\ndef view(tpl_name, **defaults):\n    \"\"\" Decorator: renders a template for a handler.\n        The handler can control its behavior like that:\n          - return a dict of template vars to fill out the template\n          - return something other than a dict and the view decorator will not\n            process the template, but return the handler result as is.",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "cheetah_template",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "cheetah_template = functools.partial(template,\n                                     template_adapter=CheetahTemplate)\njinja2_template = functools.partial(template, template_adapter=Jinja2Template)\ndef view(tpl_name, **defaults):\n    \"\"\" Decorator: renders a template for a handler.\n        The handler can control its behavior like that:\n          - return a dict of template vars to fill out the template\n          - return something other than a dict and the view decorator will not\n            process the template, but return the handler result as is.\n            This includes returning a HTTPResponse(dict) to get,",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "jinja2_template",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "jinja2_template = functools.partial(template, template_adapter=Jinja2Template)\ndef view(tpl_name, **defaults):\n    \"\"\" Decorator: renders a template for a handler.\n        The handler can control its behavior like that:\n          - return a dict of template vars to fill out the template\n          - return something other than a dict and the view decorator will not\n            process the template, but return the handler result as is.\n            This includes returning a HTTPResponse(dict) to get,\n            for instance, JSON with autojson or other castfilters.\n    \"\"\"",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "mako_view",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "mako_view = functools.partial(view, template_adapter=MakoTemplate)\ncheetah_view = functools.partial(view, template_adapter=CheetahTemplate)\njinja2_view = functools.partial(view, template_adapter=Jinja2Template)\n###############################################################################\n# Constants and Globals ########################################################\n###############################################################################\nTEMPLATE_PATH = ['./', './views/']\nTEMPLATES = {}\nDEBUG = False\nNORUN = False  # If set, run() does nothing. Used by load_app()",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "cheetah_view",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "cheetah_view = functools.partial(view, template_adapter=CheetahTemplate)\njinja2_view = functools.partial(view, template_adapter=Jinja2Template)\n###############################################################################\n# Constants and Globals ########################################################\n###############################################################################\nTEMPLATE_PATH = ['./', './views/']\nTEMPLATES = {}\nDEBUG = False\nNORUN = False  # If set, run() does nothing. Used by load_app()\n#: A dict to map HTTP status codes (e.g. 404) to phrases (e.g. 'Not Found')",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "jinja2_view",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "jinja2_view = functools.partial(view, template_adapter=Jinja2Template)\n###############################################################################\n# Constants and Globals ########################################################\n###############################################################################\nTEMPLATE_PATH = ['./', './views/']\nTEMPLATES = {}\nDEBUG = False\nNORUN = False  # If set, run() does nothing. Used by load_app()\n#: A dict to map HTTP status codes (e.g. 404) to phrases (e.g. 'Not Found')\nHTTP_CODES = httplib.responses.copy()",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATE_PATH",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "TEMPLATE_PATH = ['./', './views/']\nTEMPLATES = {}\nDEBUG = False\nNORUN = False  # If set, run() does nothing. Used by load_app()\n#: A dict to map HTTP status codes (e.g. 404) to phrases (e.g. 'Not Found')\nHTTP_CODES = httplib.responses.copy()\nHTTP_CODES[418] = \"I'm a teapot\"  # RFC 2324\nHTTP_CODES[428] = \"Precondition Required\"\nHTTP_CODES[429] = \"Too Many Requests\"\nHTTP_CODES[431] = \"Request Header Fields Too Large\"",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "TEMPLATES = {}\nDEBUG = False\nNORUN = False  # If set, run() does nothing. Used by load_app()\n#: A dict to map HTTP status codes (e.g. 404) to phrases (e.g. 'Not Found')\nHTTP_CODES = httplib.responses.copy()\nHTTP_CODES[418] = \"I'm a teapot\"  # RFC 2324\nHTTP_CODES[428] = \"Precondition Required\"\nHTTP_CODES[429] = \"Too Many Requests\"\nHTTP_CODES[431] = \"Request Header Fields Too Large\"\nHTTP_CODES[451] = \"Unavailable For Legal Reasons\" # RFC 7725",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "DEBUG = False\nNORUN = False  # If set, run() does nothing. Used by load_app()\n#: A dict to map HTTP status codes (e.g. 404) to phrases (e.g. 'Not Found')\nHTTP_CODES = httplib.responses.copy()\nHTTP_CODES[418] = \"I'm a teapot\"  # RFC 2324\nHTTP_CODES[428] = \"Precondition Required\"\nHTTP_CODES[429] = \"Too Many Requests\"\nHTTP_CODES[431] = \"Request Header Fields Too Large\"\nHTTP_CODES[451] = \"Unavailable For Legal Reasons\" # RFC 7725\nHTTP_CODES[511] = \"Network Authentication Required\"",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "NORUN",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "NORUN = False  # If set, run() does nothing. Used by load_app()\n#: A dict to map HTTP status codes (e.g. 404) to phrases (e.g. 'Not Found')\nHTTP_CODES = httplib.responses.copy()\nHTTP_CODES[418] = \"I'm a teapot\"  # RFC 2324\nHTTP_CODES[428] = \"Precondition Required\"\nHTTP_CODES[429] = \"Too Many Requests\"\nHTTP_CODES[431] = \"Request Header Fields Too Large\"\nHTTP_CODES[451] = \"Unavailable For Legal Reasons\" # RFC 7725\nHTTP_CODES[511] = \"Network Authentication Required\"\n_HTTP_STATUS_LINES = dict((k, '%d %s' % (k, v))",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_CODES",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "HTTP_CODES = httplib.responses.copy()\nHTTP_CODES[418] = \"I'm a teapot\"  # RFC 2324\nHTTP_CODES[428] = \"Precondition Required\"\nHTTP_CODES[429] = \"Too Many Requests\"\nHTTP_CODES[431] = \"Request Header Fields Too Large\"\nHTTP_CODES[451] = \"Unavailable For Legal Reasons\" # RFC 7725\nHTTP_CODES[511] = \"Network Authentication Required\"\n_HTTP_STATUS_LINES = dict((k, '%d %s' % (k, v))\n                          for (k, v) in HTTP_CODES.items())\n#: The default template used for error pages. Override with @error()",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_CODES[418]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "HTTP_CODES[418] = \"I'm a teapot\"  # RFC 2324\nHTTP_CODES[428] = \"Precondition Required\"\nHTTP_CODES[429] = \"Too Many Requests\"\nHTTP_CODES[431] = \"Request Header Fields Too Large\"\nHTTP_CODES[451] = \"Unavailable For Legal Reasons\" # RFC 7725\nHTTP_CODES[511] = \"Network Authentication Required\"\n_HTTP_STATUS_LINES = dict((k, '%d %s' % (k, v))\n                          for (k, v) in HTTP_CODES.items())\n#: The default template used for error pages. Override with @error()\nERROR_PAGE_TEMPLATE = \"\"\"",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_CODES[428]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "HTTP_CODES[428] = \"Precondition Required\"\nHTTP_CODES[429] = \"Too Many Requests\"\nHTTP_CODES[431] = \"Request Header Fields Too Large\"\nHTTP_CODES[451] = \"Unavailable For Legal Reasons\" # RFC 7725\nHTTP_CODES[511] = \"Network Authentication Required\"\n_HTTP_STATUS_LINES = dict((k, '%d %s' % (k, v))\n                          for (k, v) in HTTP_CODES.items())\n#: The default template used for error pages. Override with @error()\nERROR_PAGE_TEMPLATE = \"\"\"\n%%try:",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_CODES[429]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "HTTP_CODES[429] = \"Too Many Requests\"\nHTTP_CODES[431] = \"Request Header Fields Too Large\"\nHTTP_CODES[451] = \"Unavailable For Legal Reasons\" # RFC 7725\nHTTP_CODES[511] = \"Network Authentication Required\"\n_HTTP_STATUS_LINES = dict((k, '%d %s' % (k, v))\n                          for (k, v) in HTTP_CODES.items())\n#: The default template used for error pages. Override with @error()\nERROR_PAGE_TEMPLATE = \"\"\"\n%%try:\n    %%from %s import DEBUG, request",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_CODES[431]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "HTTP_CODES[431] = \"Request Header Fields Too Large\"\nHTTP_CODES[451] = \"Unavailable For Legal Reasons\" # RFC 7725\nHTTP_CODES[511] = \"Network Authentication Required\"\n_HTTP_STATUS_LINES = dict((k, '%d %s' % (k, v))\n                          for (k, v) in HTTP_CODES.items())\n#: The default template used for error pages. Override with @error()\nERROR_PAGE_TEMPLATE = \"\"\"\n%%try:\n    %%from %s import DEBUG, request\n    <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_CODES[451]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "HTTP_CODES[451] = \"Unavailable For Legal Reasons\" # RFC 7725\nHTTP_CODES[511] = \"Network Authentication Required\"\n_HTTP_STATUS_LINES = dict((k, '%d %s' % (k, v))\n                          for (k, v) in HTTP_CODES.items())\n#: The default template used for error pages. Override with @error()\nERROR_PAGE_TEMPLATE = \"\"\"\n%%try:\n    %%from %s import DEBUG, request\n    <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n    <html>",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_CODES[511]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "HTTP_CODES[511] = \"Network Authentication Required\"\n_HTTP_STATUS_LINES = dict((k, '%d %s' % (k, v))\n                          for (k, v) in HTTP_CODES.items())\n#: The default template used for error pages. Override with @error()\nERROR_PAGE_TEMPLATE = \"\"\"\n%%try:\n    %%from %s import DEBUG, request\n    <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n    <html>\n        <head>",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "_HTTP_STATUS_LINES",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "_HTTP_STATUS_LINES = dict((k, '%d %s' % (k, v))\n                          for (k, v) in HTTP_CODES.items())\n#: The default template used for error pages. Override with @error()\nERROR_PAGE_TEMPLATE = \"\"\"\n%%try:\n    %%from %s import DEBUG, request\n    <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n    <html>\n        <head>\n            <title>Error: {{e.status}}</title>",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "ERROR_PAGE_TEMPLATE",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "ERROR_PAGE_TEMPLATE = \"\"\"\n%%try:\n    %%from %s import DEBUG, request\n    <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n    <html>\n        <head>\n            <title>Error: {{e.status}}</title>\n            <style type=\"text/css\">\n              html {background-color: #eee; font-family: sans-serif;}\n              body {background-color: #fff; border: 1px solid #ddd;",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "request = LocalRequest()\n#: A thread-safe instance of :class:`LocalResponse`. It is used to change the\n#: HTTP response for the *current* request.\nresponse = LocalResponse()\n#: A thread-safe namespace. Not used by Bottle.\nlocal = threading.local()\n# Initialize app stack (create first empty Bottle app now deferred until needed)\n# BC: 0.6.4 and needed for run()\napps = app = default_app = AppStack()\n#: A virtual package that redirects import statements.",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "response = LocalResponse()\n#: A thread-safe namespace. Not used by Bottle.\nlocal = threading.local()\n# Initialize app stack (create first empty Bottle app now deferred until needed)\n# BC: 0.6.4 and needed for run()\napps = app = default_app = AppStack()\n#: A virtual package that redirects import statements.\n#: Example: ``import bottle.ext.sqlite`` actually imports `bottle_sqlite`.\next = _ImportRedirect('bottle.ext' if __name__ == '__main__' else\n                      __name__ + \".ext\", 'bottle_%s').module",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "local",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "local = threading.local()\n# Initialize app stack (create first empty Bottle app now deferred until needed)\n# BC: 0.6.4 and needed for run()\napps = app = default_app = AppStack()\n#: A virtual package that redirects import statements.\n#: Example: ``import bottle.ext.sqlite`` actually imports `bottle_sqlite`.\next = _ImportRedirect('bottle.ext' if __name__ == '__main__' else\n                      __name__ + \".ext\", 'bottle_%s').module\ndef _main(argv):  # pragma: no coverage\n    args, parser = _cli_parse(argv)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "apps",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "apps = app = default_app = AppStack()\n#: A virtual package that redirects import statements.\n#: Example: ``import bottle.ext.sqlite`` actually imports `bottle_sqlite`.\next = _ImportRedirect('bottle.ext' if __name__ == '__main__' else\n                      __name__ + \".ext\", 'bottle_%s').module\ndef _main(argv):  # pragma: no coverage\n    args, parser = _cli_parse(argv)\n    def _cli_error(cli_msg):\n        parser.print_help()\n        _stderr('\\nError: %s\\n' % cli_msg)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "ext",
+        "kind": 5,
+        "importPath": ".venv.Scripts.bottle",
+        "description": ".venv.Scripts.bottle",
+        "peekOfCode": "ext = _ImportRedirect('bottle.ext' if __name__ == '__main__' else\n                      __name__ + \".ext\", 'bottle_%s').module\ndef _main(argv):  # pragma: no coverage\n    args, parser = _cli_parse(argv)\n    def _cli_error(cli_msg):\n        parser.print_help()\n        _stderr('\\nError: %s\\n' % cli_msg)\n        sys.exit(1)\n    if args.version:\n        print('Bottle %s' % __version__)",
+        "detail": ".venv.Scripts.bottle",
+        "documentation": {}
+    },
+    {
+        "label": "VERSION",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hex2bin",
+        "description": ".venv.Scripts.hex2bin",
+        "peekOfCode": "VERSION = '2.3.0'\nif __name__ == '__main__':\n    import getopt\n    import os\n    import sys\n    usage = '''Hex2Bin convertor utility.\nUsage:\n    python hex2bin.py [options] INFILE [OUTFILE]\nArguments:\n    INFILE      name of hex file for processing.",
+        "detail": ".venv.Scripts.hex2bin",
+        "documentation": {}
+    },
+    {
+        "label": "hex2dump",
+        "kind": 2,
+        "importPath": ".venv.Scripts.hex2dump",
+        "description": ".venv.Scripts.hex2dump",
+        "peekOfCode": "def hex2dump(hexfile, start=None, end=None, width=DEFAULT_WIDTH):\n    import intelhex\n    if hexfile == '-':\n        hexfile = sys.stdin\n    try:\n        ih = intelhex.IntelHex(hexfile)\n    except (IOError, intelhex.IntelHexError):\n        e = sys.exc_info()[1]     # current exception\n        sys.stderr.write('Error reading file: %s\\n' % e)\n        return 1",
+        "detail": ".venv.Scripts.hex2dump",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.hex2dump",
+        "description": ".venv.Scripts.hex2dump",
+        "peekOfCode": "def main(argv=None):\n    import getopt\n    if argv is None:\n        argv = sys.argv[1:]\n    start = None\n    end = None\n    width = DEFAULT_WIDTH\n    try:\n        opts, args = getopt.getopt(sys.argv[1:], \"hvp:r:\",\n                                  [\"help\", \"version\", \"range=\", \"width=\"])",
+        "detail": ".venv.Scripts.hex2dump",
+        "documentation": {}
+    },
+    {
+        "label": "VERSION",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hex2dump",
+        "description": ".venv.Scripts.hex2dump",
+        "peekOfCode": "VERSION = '2.3.0'\nUSAGE = '''hex2dump: show content of hex file as hexdump.\nUsage:\n    python hex2dump.py [options] HEXFILE\nOptions:\n    -h, --help              this help message.\n    -v, --version           version info.\n    -r, --range=START:END   specify address range for dumping\n                            (ascii hex value).\n                            Range can be in form 'START:' or ':END'.",
+        "detail": ".venv.Scripts.hex2dump",
+        "documentation": {}
+    },
+    {
+        "label": "USAGE",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hex2dump",
+        "description": ".venv.Scripts.hex2dump",
+        "peekOfCode": "USAGE = '''hex2dump: show content of hex file as hexdump.\nUsage:\n    python hex2dump.py [options] HEXFILE\nOptions:\n    -h, --help              this help message.\n    -v, --version           version info.\n    -r, --range=START:END   specify address range for dumping\n                            (ascii hex value).\n                            Range can be in form 'START:' or ':END'.\n    --width=N               dump N data bytes per line (default: 16).",
+        "detail": ".venv.Scripts.hex2dump",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_WIDTH",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hex2dump",
+        "description": ".venv.Scripts.hex2dump",
+        "peekOfCode": "DEFAULT_WIDTH = 16\ndef hex2dump(hexfile, start=None, end=None, width=DEFAULT_WIDTH):\n    import intelhex\n    if hexfile == '-':\n        hexfile = sys.stdin\n    try:\n        ih = intelhex.IntelHex(hexfile)\n    except (IOError, intelhex.IntelHexError):\n        e = sys.exc_info()[1]     # current exception\n        sys.stderr.write('Error reading file: %s\\n' % e)",
+        "detail": ".venv.Scripts.hex2dump",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.hexdiff",
+        "description": ".venv.Scripts.hexdiff",
+        "peekOfCode": "def main(argv=None):\n    import getopt\n    if argv is None:\n        argv = sys.argv[1:]\n    try:\n        opts, args = getopt.gnu_getopt(argv, 'hv', ['help', 'version'])\n        for o,a in opts:\n            if o in ('-h', '--help'):\n                print(USAGE)\n                return 0",
+        "detail": ".venv.Scripts.hexdiff",
+        "documentation": {}
+    },
+    {
+        "label": "VERSION",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hexdiff",
+        "description": ".venv.Scripts.hexdiff",
+        "peekOfCode": "VERSION = '2.3.0'\nUSAGE = '''hexdiff: diff dumps of 2 hex files.\nUsage:\n    python hexdiff.py [options] FILE1 FILE2\nOptions:\n    -h, --help              this help message.\n    -v, --version           version info.\n'''\nimport sys\ndef main(argv=None):",
+        "detail": ".venv.Scripts.hexdiff",
+        "documentation": {}
+    },
+    {
+        "label": "USAGE",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hexdiff",
+        "description": ".venv.Scripts.hexdiff",
+        "peekOfCode": "USAGE = '''hexdiff: diff dumps of 2 hex files.\nUsage:\n    python hexdiff.py [options] FILE1 FILE2\nOptions:\n    -h, --help              this help message.\n    -v, --version           version info.\n'''\nimport sys\ndef main(argv=None):\n    import getopt",
+        "detail": ".venv.Scripts.hexdiff",
+        "documentation": {}
+    },
+    {
+        "label": "summarize_yaml",
+        "kind": 2,
+        "importPath": ".venv.Scripts.hexinfo",
+        "description": ".venv.Scripts.hexinfo",
+        "peekOfCode": "def summarize_yaml(fname):\n    print(\"{:s}file: '{:s}'\".format(INLIST, fname))\n    from intelhex import IntelHex\n    ih = IntelHex(fname)\n    if ih.start_addr:\n        keys = sorted(ih.start_addr.keys())\n        if keys == ['CS','IP']:\n            entry = ih.start_addr['CS'] * 65536 + ih.start_addr['IP']\n        elif keys == ['EIP']:\n            entry = ih.start_addr['EIP']",
+        "detail": ".venv.Scripts.hexinfo",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.hexinfo",
+        "description": ".venv.Scripts.hexinfo",
+        "peekOfCode": "def main(argv=None):\n    import getopt\n    if argv is None:\n        argv = sys.argv[1:]\n    try:\n        opts, args = getopt.gnu_getopt(argv, 'hv', ['help', 'version'])\n        for o,a in opts:\n            if o in ('-h', '--help'):\n                print(USAGE)\n                return 0",
+        "detail": ".venv.Scripts.hexinfo",
+        "documentation": {}
+    },
+    {
+        "label": "VERSION",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hexinfo",
+        "description": ".venv.Scripts.hexinfo",
+        "peekOfCode": "VERSION = '2.3.0'\nUSAGE = '''hexinfo: summarize a hex file's contents.\nUsage:\n    python hexinfo.py [options] FILE [ FILE ... ]\nOptions:\n    -h, --help              this help message.\n    -v, --version           version info.\n'''\nimport sys\nINDENT = '  '",
+        "detail": ".venv.Scripts.hexinfo",
+        "documentation": {}
+    },
+    {
+        "label": "USAGE",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hexinfo",
+        "description": ".venv.Scripts.hexinfo",
+        "peekOfCode": "USAGE = '''hexinfo: summarize a hex file's contents.\nUsage:\n    python hexinfo.py [options] FILE [ FILE ... ]\nOptions:\n    -h, --help              this help message.\n    -v, --version           version info.\n'''\nimport sys\nINDENT = '  '\nINLIST = '- '",
+        "detail": ".venv.Scripts.hexinfo",
+        "documentation": {}
+    },
+    {
+        "label": "INDENT",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hexinfo",
+        "description": ".venv.Scripts.hexinfo",
+        "peekOfCode": "INDENT = '  '\nINLIST = '- '\ndef summarize_yaml(fname):\n    print(\"{:s}file: '{:s}'\".format(INLIST, fname))\n    from intelhex import IntelHex\n    ih = IntelHex(fname)\n    if ih.start_addr:\n        keys = sorted(ih.start_addr.keys())\n        if keys == ['CS','IP']:\n            entry = ih.start_addr['CS'] * 65536 + ih.start_addr['IP']",
+        "detail": ".venv.Scripts.hexinfo",
+        "documentation": {}
+    },
+    {
+        "label": "INLIST",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hexinfo",
+        "description": ".venv.Scripts.hexinfo",
+        "peekOfCode": "INLIST = '- '\ndef summarize_yaml(fname):\n    print(\"{:s}file: '{:s}'\".format(INLIST, fname))\n    from intelhex import IntelHex\n    ih = IntelHex(fname)\n    if ih.start_addr:\n        keys = sorted(ih.start_addr.keys())\n        if keys == ['CS','IP']:\n            entry = ih.start_addr['CS'] * 65536 + ih.start_addr['IP']\n        elif keys == ['EIP']:",
+        "detail": ".venv.Scripts.hexinfo",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.hexmerge",
+        "description": ".venv.Scripts.hexmerge",
+        "peekOfCode": "def main(args=None):\n    import getopt\n    output = None\n    start = None\n    end = None\n    write_start_addr = True\n    overlap = 'error'\n    if args is None:\n        args = sys.argv[1:]\n    try:",
+        "detail": ".venv.Scripts.hexmerge",
+        "documentation": {}
+    },
+    {
+        "label": "VERSION",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hexmerge",
+        "description": ".venv.Scripts.hexmerge",
+        "peekOfCode": "VERSION = '2.3.0'\nUSAGE = '''hexmerge: merge content of hex files.\nUsage:\n    python hexmerge.py [options] FILES...\nOptions:\n    -h, --help              this help message.\n    -v, --version           version info.\n    -o, --output=FILENAME   output file name (emit output to stdout\n                            if option is not specified)\n    -r, --range=START:END   specify address range for output",
+        "detail": ".venv.Scripts.hexmerge",
+        "documentation": {}
+    },
+    {
+        "label": "USAGE",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hexmerge",
+        "description": ".venv.Scripts.hexmerge",
+        "peekOfCode": "USAGE = '''hexmerge: merge content of hex files.\nUsage:\n    python hexmerge.py [options] FILES...\nOptions:\n    -h, --help              this help message.\n    -v, --version           version info.\n    -o, --output=FILENAME   output file name (emit output to stdout\n                            if option is not specified)\n    -r, --range=START:END   specify address range for output\n                            (ascii hex value). Both values are inclusive.",
+        "detail": ".venv.Scripts.hexmerge",
+        "documentation": {}
+    },
+    {
+        "label": "ReadElf",
+        "kind": 6,
+        "importPath": ".venv.Scripts.readelf",
+        "description": ".venv.Scripts.readelf",
+        "peekOfCode": "class ReadElf(object):\n    \"\"\" display_* methods are used to emit output into the output stream\n    \"\"\"\n    def __init__(self, file, output):\n        \"\"\" file:\n                stream object with the ELF file to read\n            output:\n                output stream to write to\n        \"\"\"\n        self.elffile = ELFFile(file)",
+        "detail": ".venv.Scripts.readelf",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.readelf",
+        "description": ".venv.Scripts.readelf",
+        "peekOfCode": "def main(stream=None):\n    # parse the command-line arguments and invoke ReadElf\n    argparser = argparse.ArgumentParser(\n            usage='usage: %(prog)s [options] <elf-file>',\n            description=SCRIPT_DESCRIPTION,\n            add_help=False, # -h is a real option of readelf\n            prog='readelf.py')\n    argparser.add_argument('file',\n            nargs='?', default=None,\n            help='ELF file to parse')",
+        "detail": ".venv.Scripts.readelf",
+        "documentation": {}
+    },
+    {
+        "label": "profile_main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.readelf",
+        "description": ".venv.Scripts.readelf",
+        "peekOfCode": "def profile_main():\n    # Run 'main' redirecting its output to readelfout.txt\n    # Saves profiling information in readelf.profile\n    PROFFILE = 'readelf.profile'\n    import cProfile\n    cProfile.run('main(open(\"readelfout.txt\", \"w\"))', PROFFILE)\n    # Dig in some profiling stats\n    import pstats\n    p = pstats.Stats(PROFFILE)\n    p.sort_stats('cumulative').print_stats(25)",
+        "detail": ".venv.Scripts.readelf",
+        "documentation": {}
+    },
+    {
+        "label": "_CONTROL_CHAR_RE",
+        "kind": 5,
+        "importPath": ".venv.Scripts.readelf",
+        "description": ".venv.Scripts.readelf",
+        "peekOfCode": "_CONTROL_CHAR_RE = re.compile(r'[\\x01-\\x1f]')\ndef _format_symbol_name(s):\n    return _CONTROL_CHAR_RE.sub(lambda match: '^' + chr(0x40 + ord(match[0])), s)\nclass ReadElf(object):\n    \"\"\" display_* methods are used to emit output into the output stream\n    \"\"\"\n    def __init__(self, file, output):\n        \"\"\" file:\n                stream object with the ELF file to read\n            output:",
+        "detail": ".venv.Scripts.readelf",
+        "documentation": {}
+    },
+    {
+        "label": "SCRIPT_DESCRIPTION",
+        "kind": 5,
+        "importPath": ".venv.Scripts.readelf",
+        "description": ".venv.Scripts.readelf",
+        "peekOfCode": "SCRIPT_DESCRIPTION = 'Display information about the contents of ELF format files'\nVERSION_STRING = '%%(prog)s: based on pyelftools %s' % __version__\ndef main(stream=None):\n    # parse the command-line arguments and invoke ReadElf\n    argparser = argparse.ArgumentParser(\n            usage='usage: %(prog)s [options] <elf-file>',\n            description=SCRIPT_DESCRIPTION,\n            add_help=False, # -h is a real option of readelf\n            prog='readelf.py')\n    argparser.add_argument('file',",
+        "detail": ".venv.Scripts.readelf",
+        "documentation": {}
+    },
+    {
+        "label": "VERSION_STRING",
+        "kind": 5,
+        "importPath": ".venv.Scripts.readelf",
+        "description": ".venv.Scripts.readelf",
+        "peekOfCode": "VERSION_STRING = '%%(prog)s: based on pyelftools %s' % __version__\ndef main(stream=None):\n    # parse the command-line arguments and invoke ReadElf\n    argparser = argparse.ArgumentParser(\n            usage='usage: %(prog)s [options] <elf-file>',\n            description=SCRIPT_DESCRIPTION,\n            add_help=False, # -h is a real option of readelf\n            prog='readelf.py')\n    argparser.add_argument('file',\n            nargs='?', default=None,",
+        "detail": ".venv.Scripts.readelf",
+        "documentation": {}
+    },
+    {
+        "label": "esp8266_copy_factory_bin",
+        "kind": 2,
+        "importPath": "config..esphome.build.prototype-2.post_build",
+        "description": "config..esphome.build.prototype-2.post_build",
+        "peekOfCode": "def esp8266_copy_factory_bin(source, target, env):\n    firmware_name = env.subst(\"$BUILD_DIR/${PROGNAME}.bin\")\n    new_file_name = env.subst(\"$BUILD_DIR/${PROGNAME}.factory.bin\")\n    shutil.copyfile(firmware_name, new_file_name)\ndef esp8266_copy_ota_bin(source, target, env):\n    firmware_name = env.subst(\"$BUILD_DIR/${PROGNAME}.bin\")\n    new_file_name = env.subst(\"$BUILD_DIR/${PROGNAME}.ota.bin\")\n    shutil.copyfile(firmware_name, new_file_name)\n# pylint: disable=E0602\nenv.AddPostAction(\"$BUILD_DIR/${PROGNAME}.bin\", esp8266_copy_factory_bin)  # noqa",
+        "detail": "config..esphome.build.prototype-2.post_build",
+        "documentation": {}
+    },
+    {
+        "label": "esp8266_copy_ota_bin",
+        "kind": 2,
+        "importPath": "config..esphome.build.prototype-2.post_build",
+        "description": "config..esphome.build.prototype-2.post_build",
+        "peekOfCode": "def esp8266_copy_ota_bin(source, target, env):\n    firmware_name = env.subst(\"$BUILD_DIR/${PROGNAME}.bin\")\n    new_file_name = env.subst(\"$BUILD_DIR/${PROGNAME}.ota.bin\")\n    shutil.copyfile(firmware_name, new_file_name)\n# pylint: disable=E0602\nenv.AddPostAction(\"$BUILD_DIR/${PROGNAME}.bin\", esp8266_copy_factory_bin)  # noqa\nenv.AddPostAction(\"$BUILD_DIR/${PROGNAME}.bin\", esp8266_copy_ota_bin)  # noqa",
+        "detail": "config..esphome.build.prototype-2.post_build",
+        "documentation": {}
+    },
+    {
+        "label": "esp8266_copy_factory_bin",
+        "kind": 2,
+        "importPath": "config..esphome.build.prototype-4.post_build",
+        "description": "config..esphome.build.prototype-4.post_build",
+        "peekOfCode": "def esp8266_copy_factory_bin(source, target, env):\n    firmware_name = env.subst(\"$BUILD_DIR/${PROGNAME}.bin\")\n    new_file_name = env.subst(\"$BUILD_DIR/${PROGNAME}.factory.bin\")\n    shutil.copyfile(firmware_name, new_file_name)\ndef esp8266_copy_ota_bin(source, target, env):\n    firmware_name = env.subst(\"$BUILD_DIR/${PROGNAME}.bin\")\n    new_file_name = env.subst(\"$BUILD_DIR/${PROGNAME}.ota.bin\")\n    shutil.copyfile(firmware_name, new_file_name)\n# pylint: disable=E0602\nenv.AddPostAction(\"$BUILD_DIR/${PROGNAME}.bin\", esp8266_copy_factory_bin)  # noqa",
+        "detail": "config..esphome.build.prototype-4.post_build",
+        "documentation": {}
+    },
+    {
+        "label": "esp8266_copy_ota_bin",
+        "kind": 2,
+        "importPath": "config..esphome.build.prototype-4.post_build",
+        "description": "config..esphome.build.prototype-4.post_build",
+        "peekOfCode": "def esp8266_copy_ota_bin(source, target, env):\n    firmware_name = env.subst(\"$BUILD_DIR/${PROGNAME}.bin\")\n    new_file_name = env.subst(\"$BUILD_DIR/${PROGNAME}.ota.bin\")\n    shutil.copyfile(firmware_name, new_file_name)\n# pylint: disable=E0602\nenv.AddPostAction(\"$BUILD_DIR/${PROGNAME}.bin\", esp8266_copy_factory_bin)  # noqa\nenv.AddPostAction(\"$BUILD_DIR/${PROGNAME}.bin\", esp8266_copy_ota_bin)  # noqa",
+        "detail": "config..esphome.build.prototype-4.post_build",
+        "documentation": {}
+    },
+    {
+        "label": "list_boards",
+        "kind": 2,
+        "importPath": "scripts.board_config",
+        "description": "scripts.board_config",
+        "peekOfCode": "def list_boards():\n    \"\"\"List all available board configurations\"\"\"\n    print(\"Available ESP32 Boards:\")\n    print(\"=\" * 50)\n    for board_id, config in BOARD_CONFIGS.items():\n        print(f\"🔧 {board_id}\")\n        print(f\"   Name: {config['name']}\")\n        print(f\"   Flash: {config['flash_size']}\")\n        print(f\"   PSRAM: {'Yes' if config['psram'] else 'No'}\")\n        print(f\"   LED Pin: GPIO{config['led_pin']}\")",
+        "detail": "scripts.board_config",
+        "documentation": {}
+    },
+    {
+        "label": "update_platformio_ini",
+        "kind": 2,
+        "importPath": "scripts.board_config",
+        "description": "scripts.board_config",
+        "peekOfCode": "def update_platformio_ini(board_id):\n    \"\"\"Update platformio.ini with selected board configuration\"\"\"\n    if board_id not in BOARD_CONFIGS:\n        print(f\"❌ Unknown board: {board_id}\")\n        return False\n    config = BOARD_CONFIGS[board_id]\n    platformio_ini = Path(\"platformio.ini\")\n    if not platformio_ini.exists():\n        print(\"❌ platformio.ini not found!\")\n        return False",
+        "detail": "scripts.board_config",
+        "documentation": {}
+    },
+    {
+        "label": "update_config_header",
+        "kind": 2,
+        "importPath": "scripts.board_config",
+        "description": "scripts.board_config",
+        "peekOfCode": "def update_config_header(board_id):\n    \"\"\"Update include/config.h with board-specific settings\"\"\"\n    if board_id not in BOARD_CONFIGS:\n        return False\n    config = BOARD_CONFIGS[board_id]\n    config_header = Path(\"include/config.h\")\n    if not config_header.exists():\n        print(\"⚠️  include/config.h not found, skipping header update\")\n        return True\n    # Read current config.h",
+        "detail": "scripts.board_config",
+        "documentation": {}
+    },
+    {
+        "label": "update_project_json",
+        "kind": 2,
+        "importPath": "scripts.board_config",
+        "description": "scripts.board_config",
+        "peekOfCode": "def update_project_json(board_id):\n    \"\"\"Update project.json with board information\"\"\"\n    if board_id not in BOARD_CONFIGS:\n        return False\n    config = BOARD_CONFIGS[board_id]\n    project_json = Path(\"project.json\")\n    if not project_json.exists():\n        print(\"⚠️  project.json not found, skipping project update\")\n        return True\n    # Read and update project.json",
+        "detail": "scripts.board_config",
+        "documentation": {}
+    },
+    {
+        "label": "interactive_selection",
+        "kind": 2,
+        "importPath": "scripts.board_config",
+        "description": "scripts.board_config",
+        "peekOfCode": "def interactive_selection():\n    \"\"\"Interactive board selection\"\"\"\n    print(\"🔧 ESP32 Board Configuration Tool\")\n    print(\"=\" * 40)\n    # Show available boards\n    boards = list(BOARD_CONFIGS.keys())\n    for i, board_id in enumerate(boards, 1):\n        config = BOARD_CONFIGS[board_id]\n        print(f\"{i:2d}. {config['name']}\")\n        print(f\"    ID: {board_id}\")",
+        "detail": "scripts.board_config",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.board_config",
+        "description": "scripts.board_config",
+        "peekOfCode": "def main():\n    \"\"\"Main function\"\"\"\n    parser = argparse.ArgumentParser(description=\"ESP32 Board Configuration Tool\")\n    parser.add_argument(\"--list\", \"-l\", action=\"store_true\", help=\"List available boards\")\n    parser.add_argument(\"--board\", \"-b\", help=\"Board ID to configure\")\n    parser.add_argument(\"--interactive\", \"-i\", action=\"store_true\", help=\"Interactive board selection\")\n    args = parser.parse_args()\n    if args.list:\n        list_boards()\n        return",
+        "detail": "scripts.board_config",
+        "documentation": {}
+    },
+    {
+        "label": "BOARD_CONFIGS",
+        "kind": 5,
+        "importPath": "scripts.board_config",
+        "description": "scripts.board_config",
+        "peekOfCode": "BOARD_CONFIGS = {\n    \"esp32dev\": {\n        \"name\": \"ESP32 Development Board (Generic)\",\n        \"platform\": \"espressif32\",\n        \"board\": \"esp32dev\",\n        \"framework\": \"arduino\",\n        \"upload_speed\": 921600,\n        \"monitor_speed\": 115200,\n        \"flash_size\": \"4MB\",\n        \"psram\": False,",
+        "detail": "scripts.board_config",
+        "documentation": {}
+    },
+    {
+        "label": "run_command",
+        "kind": 2,
+        "importPath": "scripts.dev",
+        "description": "scripts.dev",
+        "peekOfCode": "def run_command(cmd, description=\"\"):\n    \"\"\"Run a command and handle errors\"\"\"\n    if description:\n        print(f\"\\n🔧 {description}\")\n    print(f\"Running: {' '.join(cmd)}\")\n    try:\n        result = subprocess.run(cmd, check=True, capture_output=False)\n        return result.returncode == 0\n    except subprocess.CalledProcessError as e:\n        print(f\"❌ Command failed with exit code {e.returncode}\")",
+        "detail": "scripts.dev",
+        "documentation": {}
+    },
+    {
+        "label": "build_project",
+        "kind": 2,
+        "importPath": "scripts.dev",
+        "description": "scripts.dev",
+        "peekOfCode": "def build_project(env=\"esp32dev\"):\n    \"\"\"Build the project\"\"\"\n    return run_command([\"pio\", \"run\", \"-e\", env], f\"Building project ({env})\")\ndef upload_project(env=\"esp32dev\"):\n    \"\"\"Upload the project\"\"\"\n    return run_command([\"pio\", \"run\", \"-e\", env, \"--target\", \"upload\"], f\"Uploading to device ({env})\")\ndef monitor_device():\n    \"\"\"Monitor serial output\"\"\"\n    return run_command([\"pio\", \"device\", \"monitor\"], \"Starting serial monitor\")\ndef clean_project():",
+        "detail": "scripts.dev",
+        "documentation": {}
+    },
+    {
+        "label": "upload_project",
+        "kind": 2,
+        "importPath": "scripts.dev",
+        "description": "scripts.dev",
+        "peekOfCode": "def upload_project(env=\"esp32dev\"):\n    \"\"\"Upload the project\"\"\"\n    return run_command([\"pio\", \"run\", \"-e\", env, \"--target\", \"upload\"], f\"Uploading to device ({env})\")\ndef monitor_device():\n    \"\"\"Monitor serial output\"\"\"\n    return run_command([\"pio\", \"device\", \"monitor\"], \"Starting serial monitor\")\ndef clean_project():\n    \"\"\"Clean build files\"\"\"\n    return run_command([\"pio\", \"run\", \"--target\", \"clean\"], \"Cleaning build files\")\ndef upload_filesystem():",
+        "detail": "scripts.dev",
+        "documentation": {}
+    },
+    {
+        "label": "monitor_device",
+        "kind": 2,
+        "importPath": "scripts.dev",
+        "description": "scripts.dev",
+        "peekOfCode": "def monitor_device():\n    \"\"\"Monitor serial output\"\"\"\n    return run_command([\"pio\", \"device\", \"monitor\"], \"Starting serial monitor\")\ndef clean_project():\n    \"\"\"Clean build files\"\"\"\n    return run_command([\"pio\", \"run\", \"--target\", \"clean\"], \"Cleaning build files\")\ndef upload_filesystem():\n    \"\"\"Upload SPIFFS filesystem\"\"\"\n    return run_command([\"pio\", \"run\", \"--target\", \"uploadfs\"], \"Uploading SPIFFS filesystem\")\ndef check_devices():",
+        "detail": "scripts.dev",
+        "documentation": {}
+    },
+    {
+        "label": "clean_project",
+        "kind": 2,
+        "importPath": "scripts.dev",
+        "description": "scripts.dev",
+        "peekOfCode": "def clean_project():\n    \"\"\"Clean build files\"\"\"\n    return run_command([\"pio\", \"run\", \"--target\", \"clean\"], \"Cleaning build files\")\ndef upload_filesystem():\n    \"\"\"Upload SPIFFS filesystem\"\"\"\n    return run_command([\"pio\", \"run\", \"--target\", \"uploadfs\"], \"Uploading SPIFFS filesystem\")\ndef check_devices():\n    \"\"\"List available devices\"\"\"\n    return run_command([\"pio\", \"device\", \"list\"], \"Checking available devices\")\ndef full_deploy(env=\"esp32dev\"):",
+        "detail": "scripts.dev",
+        "documentation": {}
+    },
+    {
+        "label": "upload_filesystem",
+        "kind": 2,
+        "importPath": "scripts.dev",
+        "description": "scripts.dev",
+        "peekOfCode": "def upload_filesystem():\n    \"\"\"Upload SPIFFS filesystem\"\"\"\n    return run_command([\"pio\", \"run\", \"--target\", \"uploadfs\"], \"Uploading SPIFFS filesystem\")\ndef check_devices():\n    \"\"\"List available devices\"\"\"\n    return run_command([\"pio\", \"device\", \"list\"], \"Checking available devices\")\ndef full_deploy(env=\"esp32dev\"):\n    \"\"\"Full deployment: clean, build, upload, monitor\"\"\"\n    steps = [\n        (\"Clean\", lambda: clean_project()),",
+        "detail": "scripts.dev",
+        "documentation": {}
+    },
+    {
+        "label": "check_devices",
+        "kind": 2,
+        "importPath": "scripts.dev",
+        "description": "scripts.dev",
+        "peekOfCode": "def check_devices():\n    \"\"\"List available devices\"\"\"\n    return run_command([\"pio\", \"device\", \"list\"], \"Checking available devices\")\ndef full_deploy(env=\"esp32dev\"):\n    \"\"\"Full deployment: clean, build, upload, monitor\"\"\"\n    steps = [\n        (\"Clean\", lambda: clean_project()),\n        (\"Build\", lambda: build_project(env)),\n        (\"Upload\", lambda: upload_project(env)),\n        (\"Monitor\", lambda: monitor_device())",
+        "detail": "scripts.dev",
+        "documentation": {}
+    },
+    {
+        "label": "full_deploy",
+        "kind": 2,
+        "importPath": "scripts.dev",
+        "description": "scripts.dev",
+        "peekOfCode": "def full_deploy(env=\"esp32dev\"):\n    \"\"\"Full deployment: clean, build, upload, monitor\"\"\"\n    steps = [\n        (\"Clean\", lambda: clean_project()),\n        (\"Build\", lambda: build_project(env)),\n        (\"Upload\", lambda: upload_project(env)),\n        (\"Monitor\", lambda: monitor_device())\n    ]\n    for step_name, step_func in steps:\n        print(f\"\\n{'='*50}\")",
+        "detail": "scripts.dev",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.dev",
+        "description": "scripts.dev",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"ESP32 PlatformIO Project Development Helper\")\n    parser.add_argument(\"action\", choices=[\n        \"build\", \"upload\", \"monitor\", \"clean\", \"uploadfs\", \n        \"devices\", \"deploy\", \"debug-build\", \"ota-upload\"\n    ], help=\"Action to perform\")\n    parser.add_argument(\"-e\", \"--env\", default=\"esp32dev\", \n                       choices=[\"esp32dev\", \"esp32dev_debug\", \"esp32dev_ota\"],\n                       help=\"Environment to use\")\n    args = parser.parse_args()",
+        "detail": "scripts.dev",
+        "documentation": {}
+    },
+    {
+        "label": "ESPHomeConfigUI",
+        "kind": 6,
+        "importPath": "scripts.esphome_dashboard",
+        "description": "scripts.esphome_dashboard",
+        "peekOfCode": "class ESPHomeConfigUI:\n    \"\"\"Minimalist first-run configuration UI\"\"\"\n    def __init__(self, config_dir):\n        self.config_dir = Path(config_dir)\n        self.secrets_file = self.config_dir / \"secrets.yaml\"\n        self.config_data = {}\n    def show_config_dialog(self):\n        \"\"\"Show configuration dialog and return True if completed\"\"\"\n        if not TKINTER_AVAILABLE:\n            print(\"⚠️ tkinter not available, skipping GUI setup\")",
+        "detail": "scripts.esphome_dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "check_first_run",
+        "kind": 2,
+        "importPath": "scripts.esphome_dashboard",
+        "description": "scripts.esphome_dashboard",
+        "peekOfCode": "def check_first_run(config_dir):\n    \"\"\"Check if this is the first run (no secrets.yaml exists)\"\"\"\n    secrets_file = Path(config_dir) / \"secrets.yaml\"\n    return not secrets_file.exists()\ndef main():\n    \"\"\"Launch ESPHome dashboard with optional first-run setup\"\"\"\n    # Get project root directory\n    project_root = Path(__file__).parent.parent\n    config_dir = project_root / \"config\"\n    venv_dir = project_root / \".venv\"",
+        "detail": "scripts.esphome_dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.esphome_dashboard",
+        "description": "scripts.esphome_dashboard",
+        "peekOfCode": "def main():\n    \"\"\"Launch ESPHome dashboard with optional first-run setup\"\"\"\n    # Get project root directory\n    project_root = Path(__file__).parent.parent\n    config_dir = project_root / \"config\"\n    venv_dir = project_root / \".venv\"\n    # Check if virtual environment exists\n    if not venv_dir.exists():\n        print(\"❌ Virtual environment not found at .venv/\")\n        print(\"Please run: python -m venv .venv\")",
+        "detail": "scripts.esphome_dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "ESP32FlashTool",
+        "kind": 6,
+        "importPath": "scripts.flash_tool",
+        "description": "scripts.flash_tool",
+        "peekOfCode": "class ESP32FlashTool:\n    def __init__(self, port=\"COM3\", baudrate=921600):\n        self.port = port\n        self.baudrate = baudrate\n        self.esptool_cmd = [\"python\", \"-m\", \"esptool\", \"--port\", port, \"--baud\", str(baudrate)]\n    def run_esptool(self, args, description=\"\"):\n        \"\"\"Run esptool command\"\"\"\n        if description:\n            print(f\"🔧 {description}\")\n        cmd = self.esptool_cmd + args",
+        "detail": "scripts.flash_tool",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.flash_tool",
+        "description": "scripts.flash_tool",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"ESP32 Flash Management Tool\")\n    parser.add_argument(\"-p\", \"--port\", default=\"COM3\", help=\"Serial port\")\n    parser.add_argument(\"-b\", \"--baudrate\", type=int, default=921600, help=\"Baud rate\")\n    subparsers = parser.add_subparsers(dest=\"command\", help=\"Available commands\")\n    # Info commands\n    subparsers.add_parser(\"chip-info\", help=\"Get chip information\")\n    subparsers.add_parser(\"flash-info\", help=\"Get flash information\")\n    # Backup commands\n    backup_parser = subparsers.add_parser(\"backup\", help=\"Create full flash backup\")",
+        "detail": "scripts.flash_tool",
+        "documentation": {}
+    },
+    {
+        "label": "ESPMonitor",
+        "kind": 6,
+        "importPath": "scripts.monitor",
+        "description": "scripts.monitor",
+        "peekOfCode": "class ESPMonitor:\n    def __init__(self, port, baudrate=115200, log_file=None, filter_pattern=None):\n        self.port = port\n        self.baudrate = baudrate\n        self.log_file = log_file\n        self.filter_pattern = re.compile(filter_pattern) if filter_pattern else None\n        self.running = False\n        self.serial_conn = None\n        self.log_queue = queue.Queue()\n    def connect(self):",
+        "detail": "scripts.monitor",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.monitor",
+        "description": "scripts.monitor",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Enhanced ESP32 Serial Monitor\")\n    parser.add_argument(\"-p\", \"--port\", default=\"COM3\", help=\"Serial port (default: COM3)\")\n    parser.add_argument(\"-b\", \"--baudrate\", type=int, default=115200, help=\"Baud rate (default: 115200)\")\n    parser.add_argument(\"-l\", \"--log\", help=\"Log file path\")\n    parser.add_argument(\"-f\", \"--filter\", help=\"Regex filter pattern\")\n    parser.add_argument(\"--no-timestamps\", action=\"store_true\", help=\"Disable timestamps\")\n    parser.add_argument(\"-c\", \"--command\", help=\"Send a single command and exit\")\n    args = parser.parse_args()\n    # Create logs directory if logging",
+        "detail": "scripts.monitor",
+        "documentation": {}
+    },
+    {
+        "label": "OTAManager",
+        "kind": 6,
+        "importPath": "scripts.ota_update",
+        "description": "scripts.ota_update",
+        "peekOfCode": "class OTAManager:\n    def __init__(self, device_ip, auth_password=\"admin\", port=3232):\n        self.device_ip = device_ip\n        self.auth_password = auth_password\n        self.port = port\n        self.base_url = f\"http://{device_ip}:{port}\"\n    def check_device_status(self):\n        \"\"\"Check if device is reachable and OTA ready\"\"\"\n        try:\n            response = requests.get(f\"{self.base_url}/status\", timeout=5)",
+        "detail": "scripts.ota_update",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.ota_update",
+        "description": "scripts.ota_update",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"ESP32 OTA Update Manager\")\n    parser.add_argument(\"device_ip\", help=\"Device IP address or hostname\")\n    parser.add_argument(\"-f\", \"--firmware\", help=\"Firmware file path\")\n    parser.add_argument(\"-p\", \"--password\", default=\"admin\", help=\"OTA password\")\n    parser.add_argument(\"--port\", type=int, default=3232, help=\"OTA port\")\n    parser.add_argument(\"--check\", action=\"store_true\", help=\"Only check device status\")\n    parser.add_argument(\"--info\", action=\"store_true\", help=\"Get device information\")\n    parser.add_argument(\"--reboot\", action=\"store_true\", help=\"Reboot device\")\n    args = parser.parse_args()",
+        "detail": "scripts.ota_update",
+        "documentation": {}
+    },
+    {
+        "label": "check_file_exists",
+        "kind": 2,
+        "importPath": "scripts.project_status",
+        "description": "scripts.project_status",
+        "peekOfCode": "def check_file_exists(file_path, description):\n    \"\"\"Check if a file exists and return status\"\"\"\n    exists = os.path.exists(file_path)\n    status = \"✅\" if exists else \"❌\"\n    print(f\"{status} {description}: {file_path}\")\n    return exists\ndef get_file_size(file_path):\n    \"\"\"Get file size in human readable format\"\"\"\n    if not os.path.exists(file_path):\n        return \"N/A\"",
+        "detail": "scripts.project_status",
+        "documentation": {}
+    },
+    {
+        "label": "get_file_size",
+        "kind": 2,
+        "importPath": "scripts.project_status",
+        "description": "scripts.project_status",
+        "peekOfCode": "def get_file_size(file_path):\n    \"\"\"Get file size in human readable format\"\"\"\n    if not os.path.exists(file_path):\n        return \"N/A\"\n    size = os.path.getsize(file_path)\n    for unit in ['B', 'KB', 'MB', 'GB']:\n        if size < 1024.0:\n            return f\"{size:.1f} {unit}\"\n        size /= 1024.0\n    return f\"{size:.1f} TB\"",
+        "detail": "scripts.project_status",
+        "documentation": {}
+    },
+    {
+        "label": "run_command",
+        "kind": 2,
+        "importPath": "scripts.project_status",
+        "description": "scripts.project_status",
+        "peekOfCode": "def run_command(cmd, capture_output=True):\n    \"\"\"Run command and return success status\"\"\"\n    try:\n        result = subprocess.run(cmd, capture_output=capture_output, text=True, check=True)\n        return True, result.stdout if capture_output else \"\"\n    except (subprocess.CalledProcessError, FileNotFoundError):\n        return False, \"\"\ndef check_platformio():\n    \"\"\"Check PlatformIO installation and project status\"\"\"\n    print(\"\\n🔧 PlatformIO Status\")",
+        "detail": "scripts.project_status",
+        "documentation": {}
+    },
+    {
+        "label": "check_platformio",
+        "kind": 2,
+        "importPath": "scripts.project_status",
+        "description": "scripts.project_status",
+        "peekOfCode": "def check_platformio():\n    \"\"\"Check PlatformIO installation and project status\"\"\"\n    print(\"\\n🔧 PlatformIO Status\")\n    print(\"-\" * 30)\n    # Check PlatformIO installation\n    pio_installed, version = run_command([\"pio\", \"--version\"])\n    if pio_installed:\n        print(f\"✅ PlatformIO installed: {version.strip()}\")\n    else:\n        print(\"❌ PlatformIO not found\")",
+        "detail": "scripts.project_status",
+        "documentation": {}
+    },
+    {
+        "label": "check_project_structure",
+        "kind": 2,
+        "importPath": "scripts.project_status",
+        "description": "scripts.project_status",
+        "peekOfCode": "def check_project_structure():\n    \"\"\"Check project file structure\"\"\"\n    print(\"\\n📁 Project Structure\")\n    print(\"-\" * 30)\n    required_files = [\n        (\"platformio.ini\", \"PlatformIO configuration\"),\n        (\"src/main.example.cpp\", \"Main source file\"),\n        (\"build.ps1\", \"Build script\"),\n        (\"scripts/setup.py\", \"Setup script\"),\n        (\"scripts/dev.py\", \"Development script\")",
+        "detail": "scripts.project_status",
+        "documentation": {}
+    },
+    {
+        "label": "check_build_artifacts",
+        "kind": 2,
+        "importPath": "scripts.project_status",
+        "description": "scripts.project_status",
+        "peekOfCode": "def check_build_artifacts():\n    \"\"\"Check build artifacts and sizes\"\"\"\n    print(\"\\n🔨 Build Artifacts\")\n    print(\"-\" * 30)\n    build_dir = \".pio/build/esp32dev\"\n    if not os.path.exists(build_dir):\n        print(\"❌ No build artifacts found. Run 'pio run' first.\")\n        return False\n    artifacts = [\n        (\"firmware.elf\", \"Main firmware\"),",
+        "detail": "scripts.project_status",
+        "documentation": {}
+    },
+    {
+        "label": "check_devices",
+        "kind": 2,
+        "importPath": "scripts.project_status",
+        "description": "scripts.project_status",
+        "peekOfCode": "def check_devices():\n    \"\"\"Check connected devices\"\"\"\n    print(\"\\n🔌 Connected Devices\")\n    print(\"-\" * 30)\n    devices_found, output = run_command([\"pio\", \"device\", \"list\"])\n    if devices_found and output.strip():\n        lines = output.strip().split('\\n')\n        device_count = len([line for line in lines if line.startswith('COM') or line.startswith('/dev/')])\n        print(f\"✅ Found {device_count} device(s)\")\n        # Show device details",
+        "detail": "scripts.project_status",
+        "documentation": {}
+    },
+    {
+        "label": "check_logs",
+        "kind": 2,
+        "importPath": "scripts.project_status",
+        "description": "scripts.project_status",
+        "peekOfCode": "def check_logs():\n    \"\"\"Check log files\"\"\"\n    print(\"\\n📋 Log Files\")\n    print(\"-\" * 30)\n    log_dir = \"logs\"\n    if not os.path.exists(log_dir):\n        print(\"📁 No logs directory\")\n        return True\n    log_files = glob.glob(os.path.join(log_dir, \"*\"))\n    if not log_files:",
+        "detail": "scripts.project_status",
+        "documentation": {}
+    },
+    {
+        "label": "check_libraries",
+        "kind": 2,
+        "importPath": "scripts.project_status",
+        "description": "scripts.project_status",
+        "peekOfCode": "def check_libraries():\n    \"\"\"Check installed libraries\"\"\"\n    print(\"\\n📚 Libraries\")\n    print(\"-\" * 30)\n    lib_success, output = run_command([\"pio\", \"lib\", \"list\"])\n    if lib_success:\n        if \"No items\" in output:\n            print(\"📦 No external libraries installed\")\n        else:\n            lines = output.strip().split('\\n')",
+        "detail": "scripts.project_status",
+        "documentation": {}
+    },
+    {
+        "label": "generate_status_report",
+        "kind": 2,
+        "importPath": "scripts.project_status",
+        "description": "scripts.project_status",
+        "peekOfCode": "def generate_status_report():\n    \"\"\"Generate comprehensive status report\"\"\"\n    print(\"🚀 ESP32 Project Status Report\")\n    print(\"=\" * 50)\n    print(f\"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\")\n    checks = [\n        (\"Project Structure\", check_project_structure),\n        (\"PlatformIO\", check_platformio),\n        (\"Build Artifacts\", check_build_artifacts),\n        (\"Connected Devices\", check_devices),",
+        "detail": "scripts.project_status",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.project_status",
+        "description": "scripts.project_status",
+        "peekOfCode": "def main():\n    healthy = generate_status_report()\n    exit(0 if healthy else 1)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "scripts.project_status",
+        "documentation": {}
+    },
+    {
+        "label": "run_command",
+        "kind": 2,
+        "importPath": "scripts.setup",
+        "description": "scripts.setup",
+        "peekOfCode": "def run_command(cmd, description=\"\", check=True):\n    \"\"\"Run a command and handle errors\"\"\"\n    if description:\n        print(f\"\\n🔧 {description}\")\n    print(f\"Running: {' '.join(cmd)}\")\n    try:\n        result = subprocess.run(cmd, check=check, capture_output=True, text=True)\n        if result.stdout:\n            print(result.stdout)\n        if result.stderr and result.returncode != 0:",
+        "detail": "scripts.setup",
+        "documentation": {}
+    },
+    {
+        "label": "check_python",
+        "kind": 2,
+        "importPath": "scripts.setup",
+        "description": "scripts.setup",
+        "peekOfCode": "def check_python():\n    \"\"\"Check Python version\"\"\"\n    print(\"🐍 Checking Python version...\")\n    version = sys.version_info\n    if version.major >= 3 and version.minor >= 7:\n        print(f\"✅ Python {version.major}.{version.minor}.{version.micro} is supported\")\n        return True\n    else:\n        print(\n            f\"❌ Python {version.major}.{version.minor}.{version.micro} is not supported. Need Python 3.7+\"",
+        "detail": "scripts.setup",
+        "documentation": {}
+    },
+    {
+        "label": "check_platformio",
+        "kind": 2,
+        "importPath": "scripts.setup",
+        "description": "scripts.setup",
+        "peekOfCode": "def check_platformio():\n    \"\"\"Check if PlatformIO is installed\"\"\"\n    print(\"\\n🔧 Checking PlatformIO installation...\")\n    if run_command([\"pio\", \"--version\"], check=False):\n        print(\"✅ PlatformIO is already installed\")\n        return True\n    else:\n        print(\"❌ PlatformIO not found\")\n        return False\ndef install_platformio():",
+        "detail": "scripts.setup",
+        "documentation": {}
+    },
+    {
+        "label": "install_platformio",
+        "kind": 2,
+        "importPath": "scripts.setup",
+        "description": "scripts.setup",
+        "peekOfCode": "def install_platformio():\n    \"\"\"Install PlatformIO\"\"\"\n    print(\"\\n📦 Installing PlatformIO...\")\n    return run_command([sys.executable, \"-m\", \"pip\", \"install\", \"platformio\"])\ndef setup_project():\n    \"\"\"Initialize PlatformIO project\"\"\"\n    print(\"\\n🏗️ Setting up PlatformIO project...\")\n    return run_command([\"pio\", \"project\", \"init\", \"--ide\", \"vscode\"])\ndef install_libraries():\n    \"\"\"Install required libraries\"\"\"",
+        "detail": "scripts.setup",
+        "documentation": {}
+    },
+    {
+        "label": "setup_project",
+        "kind": 2,
+        "importPath": "scripts.setup",
+        "description": "scripts.setup",
+        "peekOfCode": "def setup_project():\n    \"\"\"Initialize PlatformIO project\"\"\"\n    print(\"\\n🏗️ Setting up PlatformIO project...\")\n    return run_command([\"pio\", \"project\", \"init\", \"--ide\", \"vscode\"])\ndef install_libraries():\n    \"\"\"Install required libraries\"\"\"\n    print(\"\\n📚 Installing libraries...\")\n    return run_command([\"pio\", \"lib\", \"install\"])\ndef check_devices():\n    \"\"\"Check for connected devices\"\"\"",
+        "detail": "scripts.setup",
+        "documentation": {}
+    },
+    {
+        "label": "install_libraries",
+        "kind": 2,
+        "importPath": "scripts.setup",
+        "description": "scripts.setup",
+        "peekOfCode": "def install_libraries():\n    \"\"\"Install required libraries\"\"\"\n    print(\"\\n📚 Installing libraries...\")\n    return run_command([\"pio\", \"lib\", \"install\"])\ndef check_devices():\n    \"\"\"Check for connected devices\"\"\"\n    print(\"\\n🔌 Checking for connected devices...\")\n    return run_command([\"pio\", \"device\", \"list\"])\ndef create_vscode_settings():\n    \"\"\"Create VS Code settings for PlatformIO\"\"\"",
+        "detail": "scripts.setup",
+        "documentation": {}
+    },
+    {
+        "label": "check_devices",
+        "kind": 2,
+        "importPath": "scripts.setup",
+        "description": "scripts.setup",
+        "peekOfCode": "def check_devices():\n    \"\"\"Check for connected devices\"\"\"\n    print(\"\\n🔌 Checking for connected devices...\")\n    return run_command([\"pio\", \"device\", \"list\"])\ndef create_vscode_settings():\n    \"\"\"Create VS Code settings for PlatformIO\"\"\"\n    vscode_dir = \".vscode\"\n    if not os.path.exists(vscode_dir):\n        os.makedirs(vscode_dir)\n    settings_file = os.path.join(vscode_dir, \"settings.json\")",
+        "detail": "scripts.setup",
+        "documentation": {}
+    },
+    {
+        "label": "create_vscode_settings",
+        "kind": 2,
+        "importPath": "scripts.setup",
+        "description": "scripts.setup",
+        "peekOfCode": "def create_vscode_settings():\n    \"\"\"Create VS Code settings for PlatformIO\"\"\"\n    vscode_dir = \".vscode\"\n    if not os.path.exists(vscode_dir):\n        os.makedirs(vscode_dir)\n    settings_file = os.path.join(vscode_dir, \"settings.json\")\n    settings = {\n        \"platformio-ide.useBuiltinPIOCore\": True,\n        \"platformio-ide.useDevelopmentPIOCore\": False,\n        \"C_Cpp.intelliSenseEngine\": \"Tag Parser\",",
+        "detail": "scripts.setup",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.setup",
+        "description": "scripts.setup",
+        "peekOfCode": "def main():\n    print(\"🚀 ESP32 PlatformIO Project - Development Environment Setup\")\n    print(\"=\" * 60)\n    steps = [\n        (\"Check Python version\", check_python),\n        (\"Check PlatformIO\", check_platformio),\n        (\"Install PlatformIO\", install_platformio),\n        (\"Setup project\", setup_project),\n        (\"Install libraries\", install_libraries),\n        (\"Create VS Code settings\", create_vscode_settings),",
+        "detail": "scripts.setup",
+        "documentation": {}
+    },
+    {
+        "label": "validate_workflow_file",
+        "kind": 2,
+        "importPath": "scripts.validate_workflows",
+        "description": "scripts.validate_workflows",
+        "peekOfCode": "def validate_workflow_file(filepath):\n    \"\"\"Validate a single workflow file\"\"\"\n    print(f\"Validating: {filepath}\")\n    try:\n        with open(filepath, 'r', encoding='utf-8') as f:\n            content = f.read()\n            workflow = yaml.safe_load(content)\n        if workflow is None:\n            print(f\"  ❌ Empty or invalid YAML file\")\n            return False",
+        "detail": "scripts.validate_workflows",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.validate_workflows",
+        "description": "scripts.validate_workflows",
+        "peekOfCode": "def main():\n    \"\"\"Main validation function\"\"\"\n    workflows_dir = Path('.github/workflows')\n    if not workflows_dir.exists():\n        print(\"❌ No .github/workflows directory found\")\n        return False\n    workflow_files = list(workflows_dir.glob('*.yml')) + list(workflows_dir.glob('*.yaml'))\n    if not workflow_files:\n        print(\"❌ No workflow files found\")\n        return False",
+        "detail": "scripts.validate_workflows",
+        "documentation": {}
+    },
+    {
+        "label": "generate_random_password",
+        "kind": 2,
+        "importPath": "scripts.wifi_config",
+        "description": "scripts.wifi_config",
+        "peekOfCode": "def generate_random_password(length=16):\n    \"\"\"Generate a secure random password\"\"\"\n    alphabet = string.ascii_letters + string.digits + \"!@#$%^&*\"\n    return ''.join(secrets.choice(alphabet) for _ in range(length))\ndef create_wifi_config():\n    \"\"\"Create WiFi configuration\"\"\"\n    print(\"🌐 WiFi Configuration Generator\")\n    print(\"=\" * 40)\n    # Get WiFi credentials\n    ssid = input(\"WiFi SSID: \").strip()",
+        "detail": "scripts.wifi_config",
+        "documentation": {}
+    },
+    {
+        "label": "create_wifi_config",
+        "kind": 2,
+        "importPath": "scripts.wifi_config",
+        "description": "scripts.wifi_config",
+        "peekOfCode": "def create_wifi_config():\n    \"\"\"Create WiFi configuration\"\"\"\n    print(\"🌐 WiFi Configuration Generator\")\n    print(\"=\" * 40)\n    # Get WiFi credentials\n    ssid = input(\"WiFi SSID: \").strip()\n    if not ssid:\n        print(\"❌ SSID cannot be empty\")\n        return False\n    password = getpass(\"WiFi Password (leave empty to generate): \").strip()",
+        "detail": "scripts.wifi_config",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.wifi_config",
+        "description": "scripts.wifi_config",
+        "peekOfCode": "def main():\n    if not create_wifi_config():\n        exit(1)\n    print(f\"\\n💡 Next steps:\")\n    print(f\"1. Include 'wifi_config.h' in your main.cpp\")\n    print(f\"2. Use the defined constants for WiFi connection\")\n    print(f\"3. Upload filesystem: pio run --target uploadfs\")\n    print(f\"4. Build and upload your project\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "scripts.wifi_config",
+        "documentation": {}
+    }
+]
