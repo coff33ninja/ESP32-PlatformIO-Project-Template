@@ -771,15 +771,6 @@
         "documentation": {}
     },
     {
-        "label": "pathlib",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -2333,20 +2324,20 @@
         "documentation": {}
     },
     {
-        "label": "merge_factory_bin",
+        "label": "esp8266_copy_factory_bin",
         "kind": 2,
         "importPath": "config..esphome.build.relay_panel.post_build",
         "description": "config..esphome.build.relay_panel.post_build",
-        "peekOfCode": "def merge_factory_bin(source, target, env):\n    \"\"\"\n    Merges all flash sections into a single .factory.bin using esptool.\n    Attempts multiple methods to detect image layout: flasher_args.json, FLASH_EXTRA_IMAGES, fallback guesses.\n    \"\"\"\n    firmware_name = os.path.basename(env.subst(\"$PROGNAME\")) + \".bin\"\n    build_dir = pathlib.Path(env.subst(\"$BUILD_DIR\"))\n    firmware_path = build_dir / firmware_name\n    flash_size = env.BoardConfig().get(\"upload.flash_size\", \"4MB\")\n    chip = env.BoardConfig().get(\"build.mcu\", \"esp32\")",
+        "peekOfCode": "def esp8266_copy_factory_bin(source, target, env):\n    firmware_name = env.subst(\"$BUILD_DIR/${PROGNAME}.bin\")\n    new_file_name = env.subst(\"$BUILD_DIR/${PROGNAME}.factory.bin\")\n    shutil.copyfile(firmware_name, new_file_name)\ndef esp8266_copy_ota_bin(source, target, env):\n    firmware_name = env.subst(\"$BUILD_DIR/${PROGNAME}.bin\")\n    new_file_name = env.subst(\"$BUILD_DIR/${PROGNAME}.ota.bin\")\n    shutil.copyfile(firmware_name, new_file_name)\n# pylint: disable=E0602\nenv.AddPostAction(\"$BUILD_DIR/${PROGNAME}.bin\", esp8266_copy_factory_bin)  # noqa",
         "detail": "config..esphome.build.relay_panel.post_build",
         "documentation": {}
     },
     {
-        "label": "esp32_copy_ota_bin",
+        "label": "esp8266_copy_ota_bin",
         "kind": 2,
         "importPath": "config..esphome.build.relay_panel.post_build",
         "description": "config..esphome.build.relay_panel.post_build",
-        "peekOfCode": "def esp32_copy_ota_bin(source, target, env):\n    \"\"\"\n    Copy the main firmware to a .ota.bin file for compatibility with ESPHome OTA tools.\n    \"\"\"\n    firmware_name = env.subst(\"$BUILD_DIR/${PROGNAME}.bin\")\n    new_file_name = env.subst(\"$BUILD_DIR/${PROGNAME}.ota.bin\")\n    shutil.copyfile(firmware_name, new_file_name)\n    print(f\"Copied firmware to {new_file_name}\")\n# Run merge first, then ota copy second\nenv.AddPostAction(\"$BUILD_DIR/${PROGNAME}.bin\", merge_factory_bin)  # noqa: F821",
+        "peekOfCode": "def esp8266_copy_ota_bin(source, target, env):\n    firmware_name = env.subst(\"$BUILD_DIR/${PROGNAME}.bin\")\n    new_file_name = env.subst(\"$BUILD_DIR/${PROGNAME}.ota.bin\")\n    shutil.copyfile(firmware_name, new_file_name)\n# pylint: disable=E0602\nenv.AddPostAction(\"$BUILD_DIR/${PROGNAME}.bin\", esp8266_copy_factory_bin)  # noqa\nenv.AddPostAction(\"$BUILD_DIR/${PROGNAME}.bin\", esp8266_copy_ota_bin)  # noqa",
         "detail": "config..esphome.build.relay_panel.post_build",
         "documentation": {}
     },
